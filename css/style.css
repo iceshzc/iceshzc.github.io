@@ -73,7 +73,7 @@
     font-size: 18pt;
 	font-family: 'Noto Sans';
     font-weight: 200;
-    color: #333;
+    color: #000000;
 		padding: 0 3em 0 3em;
 	}
 
@@ -82,7 +82,7 @@
 		font-size: 1.8em;
 		font-family: 'Noto Sans';
 		font-weight: 600;
-		color: #333;
+		color: #000000;
 		text-transform: none;
 	}
 
@@ -97,7 +97,7 @@
 
 	.blog h5, .blog h6 {
 		margin-top: 1.8em;
-		color: #555;
+		color: #000000;
 	}
 
 	.blog h3 {
