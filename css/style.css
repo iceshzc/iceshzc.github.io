@@ -156,8 +156,13 @@
 			text-decoration: underline;
 		}
 
-	strong, b {
+	strong {
 		color: #ff0000;
+		font-weight: 900;
+	}
+
+	b {
+		color: #000000;
 		font-weight: 700;
 	}
 
