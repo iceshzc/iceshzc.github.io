@@ -28,7 +28,7 @@
 	body, input, select, textarea {
 		color: #000000;
 
-		font-size: 15pt;
+		font-size: 18pt;
 		font-family: 'Noto Sans';
 		font-weight: 200;
 		/*font-family: "Raleway", sans-serif;
@@ -70,7 +70,7 @@
 
 	.blog {
     line-height: 1.5em;
-    font-size: 13pt;
+    font-size: 18pt;
 	font-family: 'Noto Sans';
     font-weight: 200;
     color: #333;
