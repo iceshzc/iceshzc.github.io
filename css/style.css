@@ -36,7 +36,10 @@
 		line-height: 2em;
 	}
 
-
+	.custom-style {
+		font-family: Arial, sans-serif;
+		color: red;
+	}
 	/* Twitter share button */
 	.osc-counter {
 		color: #333 !important;
