@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhichao Huang (黄智超)"
+  name             : "Zhichao Huang"
   avatar           : "images/photo.png"
   bio              : "JD Technology"
   location         : "Beijing, China"
