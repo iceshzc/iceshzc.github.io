@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhichao Huang (黄智超)"
-description              : "Algorithmic Engineer at JD Technology. Foucsing on GNNs, KG and LLM."
+description              : "" 
 repository               : "iceshzc/iceshzc.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhichao Huang"
   avatar           : "images/photo.png"
-  bio              : "JD Technology"
+  bio              : "Algorithmic Engineer at JD Technology. Foucsing on GNNs, KG and LLM."
   location         : "Beijing, China"
-  employer         : "JD.COM"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=oG8Kx-oAAAAJ"
-  email            : "iceshzc@gmail.com"
+  email            : "zhichao@cshzc.top"
   researchgate     : "https://www.researchgate.net/profile/Zhichao-Huang"
   uri              : 
   bitbucket        :
