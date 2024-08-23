@@ -24,7 +24,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - *2023.12*: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area.
 - *2023.12*: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee.
 
-<a href="/news" style="font-size: 20px;" target="_self">See More News...</a>
+<a href="/news" style="font-size: 18px;" target="_self">See More News ...</a>
 
 # 🏆 Honors and Awards
 - *2024.07*, Techinical Expert for the Beijing Science and Technology Project
@@ -33,7 +33,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - *2016.07*, Outstanding Graduate of Harbin Institute of Technology, Shenzhen
 - *2015.07*, Merit Student of Harbin Institute of Technology, Shenzhen
 
-<a href="/honorsandawards" style="font-size: 20px;" target="_self">See More Honors and Awards...</a>
+<a href="/honorsandawards" style="font-size: 18px;" target="_self">See More Honors and Awards ...</a>
 
 # 📝 Selected Publications
 - `Zhichao Huang`, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
@@ -47,5 +47,5 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - Guangning Xu, Jinyang Yang, Jinjin Guo, `Zhichao Huang`📧, and Bowen Zhang📧. Int-gnn: a user intention aware graph neural network for session-based recommendation. In ICASSP, 2023.  <a href="https://ieeexplore.ieee.org/abstract/document/10097031"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/IntGNN_ICASSP2023"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
 
 # 🤝 Collaborators
-- [Guangning Xu](https://xuguangning1218.github.io/), Ph.D. Student at Harbin Institute of Technology
+- [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at Hong Kong Baptist University
 - [Bowen Zhang](https://scholar.google.com/citations?hl=zh-CN&user=2O1BOpEAAAAJ), Assistant Professor at Shenzhen Technology University
