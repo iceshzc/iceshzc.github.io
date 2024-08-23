@@ -19,10 +19,12 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 
 # 🔥 News
 - *2024.08*: I am invited as reviwers for ICLR 2025 and ICASSP 2025.
+- *2024.08*: 🎉 One paper is acceptd to Applied Intelligence Journal. 
 - *2024.07*: 🎉 I am listed as a technical expert for the Beijing Science and Technology Project.
 - *2023.12*: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area.
 - *2023.12*: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee.
-- *2023.02*: 🎉 Two corresponding author papers are accepted to ICASSP 2023.
+
+<a href="/news" style="font-size: 20px;">See More News...</a>
 
 # 🏆 Honors and Awards
 - *2024.07*, Techinical Expert for the Beijing Science and Technology Project
@@ -45,4 +47,3 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🤝 Collaborators
 - [Guangning Xu](https://xuguangning1218.github.io/), Ph.D. Student at Harbin Institute of Technology
 - [Bowen Zhang](https://scholar.google.com/citations?hl=zh-CN&user=2O1BOpEAAAAJ), Assistant Professor at Shenzhen Technology University
-
