@@ -24,7 +24,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - *2023.12*: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area.
 - *2023.12*: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee.
 
-<a href="/news" style="font-size: 20px;">See More News...</a>
+<a href="/news" style="font-size: 20px;" target="_self">See More News...</a>
 
 # 🏆 Honors and Awards
 - *2024.07*, Techinical Expert for the Beijing Science and Technology Project
@@ -33,7 +33,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - *2016.07*, Outstanding Graduate of Harbin Institute of Technology, Shenzhen
 - *2015.07*, Merit Student of Harbin Institute of Technology, Shenzhen
 
-<a href="/honorsandawards" style="font-size: 20px;">See More Honors and Awards...</a>
+<a href="/honorsandawards" style="font-size: 20px;" target="_self">See More Honors and Awards...</a>
 
 # 📝 Selected Publications
 - `Zhichao Huang`, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
