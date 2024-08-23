@@ -16,6 +16,7 @@ permalink: /services
 - International Journal of Machine Learning and Cybernetics
 
 ## Program Committee
+- ICLR (2025)
 - AAAI (2021, 2022)
 - IJCAI (2021 - 2024)
 - ACM MM (2024)
