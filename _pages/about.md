@@ -18,6 +18,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 <img class="svg" src="/images/hit_logo.jpeg" width="100pt"> <img class="svg" src="/images/jd_logo.webp" width="100pt">
 
 # 🔥 News
+- *2024.08*: I am invited as reviwers for ICLR 2025 and ICASSP 2025.
 - *2024.07*: 🎉 I am listed as a technical expert for the Beijing Science and Technology Project.
 - *2023.12*: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area.
 - *2023.12*: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee.
