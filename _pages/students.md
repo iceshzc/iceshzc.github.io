@@ -7,4 +7,4 @@ permalink: /students
 # 🧑‍🎓 Students
 
 ## Intern
-- [Chunyang Li](https://scholar.google.com/citations?user=Ygb4CkIAAAAJ&hl=zh-CN), Ph.D. student from Xidian University
+- [Chunyang Li](https://openreview.net/profile?id=~Chunyang_Li1), Ph.D. student from Xidian University
