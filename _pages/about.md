@@ -17,9 +17,6 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 ```zhichao [at] cshzc [dot] top
 ```
 
-
-<img class="svg" src="/images/hit_logo.jpeg" width="100pt"> <img class="svg" src="/images/jd_logo.webp" width="100pt">
-
 # 🔥 News
 - *2024.08*: I am invited to serve as reviwers for ICLR 2025 and ICASSP 2025.
 - *2024.08*: 🎉 One paper is acceptd to Applied Intelligence Journal. 
@@ -27,7 +24,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - *2023.12*: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area.
 - *2023.12*: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee.
 
-<a href="/news" style="font-size: 18px;" target="_self">See More News ...</a>
+<a href="/news" style="font-size: 18px;" target="_self">More...</a>
 
 # 🏆 Honors and Awards
 - *2024.07*, Techinical Expert for the Beijing Science and Technology Project
@@ -36,7 +33,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - *2016.07*, Outstanding Graduate of Harbin Institute of Technology, Shenzhen
 - *2015.07*, Merit Student of Harbin Institute of Technology, Shenzhen
 
-<a href="/honorsandawards" style="font-size: 18px;" target="_self">See More Honors and Awards ...</a>
+<a href="/honorsandawards" style="font-size: 18px;" target="_self">More...</a>
 
 # 📝 Selected Publications
 - `Zhichao Huang`, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
@@ -52,3 +49,5 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🤝 Collaborators
 - [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at Hong Kong Baptist University
 - [Bowen Zhang](https://scholar.google.com/citations?hl=zh-CN&user=2O1BOpEAAAAJ), Assistant Professor at Shenzhen Technology University
+
+<img class="svg" src="/images/hit_logo.jpeg" width="100pt"> <img class="svg" src="/images/hkbu_logo.png" width="135pt"> <img class="svg" src="/images/sztu_logo.png" width="65pt"> <img class="svg" src="/images/jd_logo.webp" width="100pt">
