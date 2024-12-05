@@ -5,6 +5,35 @@ layout: compress
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 100%;
+            cursor: pointer;
+            display: none; /* 默认隐藏 */
+        }
+        .scroll-to-top:hover {
+            background-color: #5c89b8;
+        }
+    </style>
+
     {% include head.html %}
     {% include head/custom.html %}
   </head>
@@ -13,14 +42,14 @@ layout: compress
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
     <div id="main" role="main">
+
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
+          <section class="page__content" style="font-size: 16.2px;" itemprop="text">
             {{ content }}
           </section>
         </div>
@@ -28,12 +57,29 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+    
+    <br>
+    <div class="footer_copyright">
+      <span>&copy; 2024 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Dec. 5, 2024.</span>
+    </div>
+    
+    <button class="scroll-to-top" id="scrollTopBtn">⬆</button>
+    <script>
+        window.onscroll = function() { scrollFunction() };
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
- Totaly <script type="text/javascript" src="//counter.websiteout.com/js/5/0/98/0"></script> visiting times © 2024 Zhichao Huang, Last Modified Time Dec. 5, 2024. 
-</div>
-</div>
+        function scrollFunction() {
+            var button = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        }
+
+        document.getElementById("scrollTopBtn").addEventListener("click", function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+    </script>
+
   </body>
 </html>

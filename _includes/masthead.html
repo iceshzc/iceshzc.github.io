@@ -4,8 +4,9 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li><img class="svg" src="/images/hit_logo.jpeg" width="45pt"></li>
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a style="font-size: 18px;" href="/" target="_self">Homepage</a></li>
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/hit_logo.jpeg" width="90pt"></li>
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/name_cn.png" width="130pt"></li>
+ 
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
           {% endfor %}

@@ -1,6 +1,35 @@
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 100%;
+            cursor: pointer;
+            display: none; /* 默认隐藏 */
+        }
+        .scroll-to-top:hover {
+            background-color: #5c89b8;
+        }
+    </style>
+
     <meta charset="utf-8">
 
 <!-- begin SEO -->
@@ -94,8 +123,11 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li><img class="svg" src="/images/hit_logo.jpeg" width="45pt"></li>
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a style="font-size: 18px;" href="/" target="_self">Homepage</a></li>
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/hit_logo.jpeg" width="90pt"></li>
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/name_cn.png" width="130pt"></li>
+ 
+          
+            <li class="masthead__menu-item"><a style="font-size: 18px;" href="/" target="_self">Home</a></li>
           
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/publications" target="_self">Publications</a></li>
           
@@ -113,8 +145,8 @@
     </div>
   </div>
 </div>
-
     <div id="main" role="main">
+
       
   <div class="sidebar sticky">
   
@@ -141,6 +173,8 @@
       
       
       
+      
+        <li><a href="mailto:zhichao@cshzc.top"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       
       
        
@@ -184,6 +218,8 @@
     </ul>
       <div class="author__urls_sm">
       
+      
+        <a href="mailto:zhichao@cshzc.top"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       
       
        
@@ -231,7 +267,7 @@
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         <meta itemprop="headline" content="Publications">
         <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
+          <section class="page__content" style="font-size: 16.2px;" itemprop="text">
             <h1 id="-preprint">📃 Preprint</h1>
 <ul>
   <li>Bowen Zhang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Genan Dai, Guangning Xu, Xiaomao Fan, Hu Huang. Core Knowledge Learning Framework for Graph Adaptation and Scalability Learning. arXiv preprint arXiv:2407.01886, 2024.  <a href="https://arxiv.org/abs/2407.01886"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></li>
@@ -357,12 +393,29 @@ through bottleneck distance exploration. In ICSS, pages 115–121, 2016. <a href
     })
 </script>
 
+    
+    <br>
+    <div class="footer_copyright">
+      <span>&copy; 2024 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Dec. 5, 2024.</span>
+    </div>
+    
+    <button class="scroll-to-top" id="scrollTopBtn">⬆</button>
+    <script>
+        window.onscroll = function() { scrollFunction() };
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
- Totaly <script type="text/javascript" src="//counter.websiteout.com/js/5/0/98/0"></script> visiting times © 2024 Zhichao Huang, Last Modified Time Dec. 5, 2024. 
-</div>
-</div>
+        function scrollFunction() {
+            var button = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        }
+
+        document.getElementById("scrollTopBtn").addEventListener("click", function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+    </script>
+
   </body>
 </html>
