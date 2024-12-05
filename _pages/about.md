@@ -18,22 +18,27 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 ```
 
 # 🔥 News
-- *2024.08*: I am invited to serve as reviwers for ICLR 2025 and ICASSP 2025.
-- *2024.08*: 🎉 One paper is acceptd to Applied Intelligence Journal. 
-- *2024.07*: 🎉 I am listed as a technical expert for the Beijing Science and Technology Project.
-- *2023.12*: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area.
-- *2023.12*: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee.
-
-<a href="/news" style="font-size: 18px;" target="_self">More...</a>
+<div style="height: 150px; overflow-y: scroll;">
+  <div style="padding-left: 1em;">
+    <p>• <em>2024.08</em>: I am invited to serve as reviwers for ICLR 2025 and ICASSP 2025</p>
+    <p>• <em>2024.08</em>: 🎉 One paper is acceptd to Applied Intelligence Journal</p>
+    <p>• <em>2024.07</em>: 🎉 I am listed as a technical expert for the Beijing Science and Technology Project</p>
+    <p>• <em>2023.12</em>: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
+    <p>• <em>2023.12</em>: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
+    <p>• <em>2023.02</em>: 🎉 Two corresponding author papers are accepted to ICASSP 2023</p>
+  </div>
+</div>
 
 # 🎖 Honors and Awards
-- *2024.07*, Techinical Expert for the Beijing Science and Technology Project
-- *2023.12*, Yi Qilin Excellent Talent
-- *2016-2020*, First-Class Scholarship of Harbin Institute of Technology, Shenzhen
-- *2016.07*, Outstanding Graduate of Harbin Institute of Technology, Shenzhen
-- *2015.07*, Merit Student of Harbin Institute of Technology, Shenzhen
-
-<a href="/honorsandawards" style="font-size: 18px;" target="_self">More...</a>
+<div style="height: 150px; overflow-y: scroll;">
+  <div style="padding-left: 1em;">
+    <p>• <em>2024.07</em>, Techinical Expert for the Beijing Science and Technology Project</p>
+    <p>• <em>2023.12</em>, Yi Qilin Excellent Talent</p>
+    <p>• <em>2016-2020</em>, First-Class Scholarship of Harbin Institute of Technology, Shenzhen</p>
+    <p>• <em>2016.07</em>, Outstanding Graduate of Harbin Institute of Technology, Shenzhen</p>
+    <p>• <em>2015.07</em>, Merit Student of Harbin Institute of Technology, Shenzhen</p>
+  </div>
+</div>
 
 # 📝 Selected Publications
 - `Zhichao Huang`, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
@@ -51,4 +56,4 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Assistant Professor at Shenzhen Technology University
 - [Xubo Qin](https://scholar.google.com/citations?hl=en&user=3GRaz1AAAAAJ), Researcher
 
-<img class="svg" src="/images/hit_logo.jpeg" width="100pt"> <img class="svg" src="/images/hkbu_logo.png" width="135pt"> <img class="svg" src="/images/sztu_logo.png" width="65pt"> <img class="svg" src="/images/jd_logo.webp" width="100pt">
+<img class="svg" src="/images/hit_logo.jpeg" width="77pt"> <img class="svg" src="/images/hkbu_logo.png" width="105pt"> <img class="svg" src="/images/sztu_logo.png" width="50pt"> <img class="svg" src="/images/jd_logo.webp" width="73pt">
