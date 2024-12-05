@@ -26,7 +26,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 
 <a href="/news" style="font-size: 18px;" target="_self">More...</a>
 
-# 🏆 Honors and Awards
+# 🎖 Honors and Awards
 - *2024.07*, Techinical Expert for the Beijing Science and Technology Project
 - *2023.12*, Yi Qilin Excellent Talent
 - *2016-2020*, First-Class Scholarship of Harbin Institute of Technology, Shenzhen
@@ -48,6 +48,6 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 
 # 🤝 Collaborators
 - [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at Hong Kong Baptist University
-- [Bowen Zhang](https://scholar.google.com/citations?hl=zh-CN&user=2O1BOpEAAAAJ), Assistant Professor at Shenzhen Technology University
+- [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Assistant Professor at Shenzhen Technology University
 
 <img class="svg" src="/images/hit_logo.jpeg" width="100pt"> <img class="svg" src="/images/hkbu_logo.png" width="135pt"> <img class="svg" src="/images/sztu_logo.png" width="65pt"> <img class="svg" src="/images/jd_logo.webp" width="100pt">
