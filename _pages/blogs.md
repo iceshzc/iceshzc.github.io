@@ -5,9 +5,9 @@ permalink: /blogs
 ---
 This page is a hidden page and will be opened soon.
 
-# Large Language Models
+# 🦙Large Language Models
 
-# Graph Neural Networks
+# 👩‍👩‍👧‍👧Graph Neural Networks
 
-# AI4Science
+# 🧪AI4Science
 
