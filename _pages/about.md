@@ -20,7 +20,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div style="padding-left: 1em;">
-    <p>• <em>2024.12</em>: 🎉 One paper is accepted to AAAI'2025,  congratulation to our co-authors Bowen and Guangning</p>
+    <p>• <em>2024.12</em>: 🎉 One paper is accepted to AAAI'2025,  congratulations to our co-authors Bowen and Guangning</p>
     <p>• <em>2024.08</em>: I am invited to serve as reviwers for ICLR'2025 and ICASSP'2025</p>
     <p>• <em>2024.08</em>: 🎉 One paper is acceptd to Applied Intelligence Journal</p>
     <p>• <em>2024.07</em>: 🎉 I am listed as a technical expert for the Beijing Science and Technology Project</p>
