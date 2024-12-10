@@ -20,13 +20,13 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div style="padding-left: 1em;">
-    <p>• <em>2024.12</em>: 🎉 One paper is accepted to AAAI'2025,  congratulations to our co-authors Bowen and Guangning</p>
-    <p>• <em>2024.08</em>: I am invited to serve as reviwers for ICLR'2025 and ICASSP'2025</p>
-    <p>• <em>2024.08</em>: 🎉 One paper is acceptd to Applied Intelligence Journal</p>
-    <p>• <em>2024.07</em>: 🎉 I am listed as a technical expert for the Beijing Science and Technology Project</p>
-    <p>• <em>2023.12</em>: 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
-    <p>• <em>2023.12</em>: 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
-    <p>• <em>2023.02</em>: 🎉 Two corresponding author papers are accepted to ICASSP'2023</p>
+    <p>• <em>2024.12</em>, 🎉 One paper is accepted to AAAI'2025,  congratulations to our co-authors Bowen and Guangning</p>
+    <p>• <em>2024.08</em>, I am invited to serve as reviwers for ICLR'2025 and ICASSP'2025</p>
+    <p>• <em>2024.08</em>, 🎉 One paper is acceptd to Applied Intelligence Journal</p>
+    <p>• <em>2024.07</em>, 🎉 I am listed as a technical expert for the Beijing Science and Technology Project</p>
+    <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
+    <p>• <em>2023.12</em>, 🎉 I become an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
+    <p>• <em>2023.02</em>, 🎉 Two corresponding author papers are accepted to ICASSP'2023</p>
   </div>
 </div>
 
