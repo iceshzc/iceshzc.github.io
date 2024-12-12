@@ -15,7 +15,8 @@ permalink: /services
 - The Journal of Supercomputing
 - International Journal of Machine Learning and Cybernetics
 
-## Program Committee
+## Conference PC/Reviewer
+- ICML (2025)
 - ICLR (2025)
 - AAAI (2021, 2022)
 - IJCAI (2021 - 2024)
