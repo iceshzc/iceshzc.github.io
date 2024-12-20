@@ -18,10 +18,11 @@ permalink: /services
 ## Conference PC/Reviewer
 - ICML (2025)
 - ICLR (2025)
-- AAAI (2021, 2022)
+- AAAI (2021 - 2022)
 - IJCAI (2021 - 2024)
 - ACM MM (2024)
 - ICASSP (2023 - 2025)
+- IJCNN (2025)
 
 ## Organizing Committee
 - 2023, China National Computer Conference 2023 - Sixth Forum on Smart Cities and Urban Computing
