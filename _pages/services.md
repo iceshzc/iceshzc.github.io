@@ -19,7 +19,7 @@ permalink: /services
 - ICML (2025)
 - ICLR (2025)
 - AAAI (2021 - 2022)
-- IJCAI (2021 - 2024)
+- IJCAI (2021 - 2025)
 - ACM MM (2024)
 - ICASSP (2023 - 2025)
 - IJCNN (2025)
