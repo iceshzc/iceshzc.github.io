@@ -11,6 +11,7 @@ permalink: /services
 - Neural Networks
 - Knowledge-Based Systems
 - Future Generation Computer Systems
+- Expert Systems With Applications
 - Engineering Applications of Artificial Intelligence
 - The Journal of Supercomputing
 - International Journal of Machine Learning and Cybernetics
