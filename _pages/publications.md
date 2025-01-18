@@ -10,7 +10,7 @@ permalink: /publications
 # 📝 Publications 
 
 ## 2025
-- Bowen Zhang, `Zhichao Huang`, Guangning Xu, Xiaomao Fan, Mingyan Xiao, Genan Dai, Hu Huang. Core Knowledge Learning Framework for Graph Adaptation and Scalability Learning. In AAAI, 2025.  <a href="https://arxiv.org/abs/2407.01886"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+- Bowen Zhang, `Zhichao Huang`, Guangning Xu, Xiaomao Fan, Mingyan Xiao, Genan Dai, Hu Huang. Core Knowledge Learning Framework for Graph Adaptation and Scalability Learning. In AAAI, 2025.  <a href="https://arxiv.org/abs/2407.01886"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> **oral paper**
 
 ## 2024
 - Bowen Zhang, Daijun Ding, `Zhichao Huang`, Ang Li, Yangyang Li, Baoquan Zhang, and Hu Huang. Knowledge-augmented interpretable network for zero-shot stance detection on social media. IEEE Transactions on Computational Social Systems, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10537616"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>

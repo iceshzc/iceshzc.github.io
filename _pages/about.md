@@ -20,6 +20,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div style="padding-left: 1em;">
+    <p>• <em>2025.01</em>, I was invited to serve as a reviewer for KDD'2025</p> 
     <p>• <em>2024.12</em>, I was invited to serve as reviewers for ICML'2025, IJCAI'2025 and IJCNN'2025</p>
     <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025,  congratulations to our co-authors Bowen and Guangning</p>
     <p>• <em>2024.08</em>, I was invited to serve as reviwers for ICLR'2025 and ICASSP'2025</p>

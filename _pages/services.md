@@ -17,6 +17,7 @@ permalink: /services
 - International Journal of Machine Learning and Cybernetics
 
 ## Conference PC/Reviewer
+- KDD (2025)
 - ICML (2025)
 - ICLR (2025)
 - AAAI (2021 - 2022)
