@@ -19,7 +19,8 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
-  <div style="padding-left: 1em;">
+  <div styple="padding-left: 1em;">
+    <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
     <p>• <em>2025.01</em>, I was invited to serve as a reviewer for KDD'2025</p> 
     <p>• <em>2024.12</em>, I was invited to serve as reviewers for ICML'2025, IJCAI'2025 and IJCNN'2025</p>
     <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as the oral presentation paper, congratulations to our co-authors Bowen and Guangning</p>
@@ -58,5 +59,6 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at Hong Kong Baptist University
 - [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Associate Professor at Shenzhen Technology University
 - [Xubo Qin](https://scholar.google.com/citations?hl=en&user=3GRaz1AAAAAJ), Researcher at BIGAI
+- [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Research Fellow at HKUST/THU/MBZUAI
 
 <img class="svg" src="/images/hit_logo.jpeg" width="77pt"> <img class="svg" src="/images/hkbu_logo.png" width="105pt"> <img class="svg" src="/images/sztu_logo.png" width="50pt"> <img class="svg" src="/images/jd_logo.webp" width="73pt">

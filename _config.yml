@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhichao Huang"
   avatar           : "images/photo.png"
-  bio              : "Algorithmic Engineer at JD Technology. Foucsing on GNNs, KG and LLM."
+  bio              : "Algorithmic Engineer at JD Technology. Foucsing on GNNs, KGs and LLMs."
   location         : "Beijing, China"
   employer         : 
   pubmed           : 
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-# github           : "iceshzc"
+  # github           : "iceshzc"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"""
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0002-7662-5184"
+  dblp             : "https://dblp.org/pid/153/7931-1.html"
+  orcid            : # "https://orcid.org/0000-0002-7662-5184"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
