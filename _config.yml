@@ -28,8 +28,9 @@ author:
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=oG8Kx-oAAAAJ"
-  email            : "zhichao@cshzc.top"
+  dblp             : "https://dblp.org/pid/153/7931-1.html"
   researchgate     : "https://www.researchgate.net/profile/Zhichao-Huang"
+  email            : "zhichao@cshzc.top"
   uri              : 
   bitbucket        :
   codepen          :
@@ -44,7 +45,6 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"""
-  dblp             : "https://dblp.org/pid/153/7931-1.html"
   orcid            : # "https://orcid.org/0000-0002-7662-5184"
   pinterest        :
   soundcloud       :
