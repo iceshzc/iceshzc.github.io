@@ -13,6 +13,7 @@ permalink: /services
 - Future Generation Computer Systems
 - Expert Systems With Applications
 - Engineering Applications of Artificial Intelligence
+- Artificial Intelligence In Medicine
 - The Journal of Supercomputing
 - International Journal of Machine Learning and Cybernetics
 
