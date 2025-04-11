@@ -14,6 +14,7 @@ permalink: /services
 - Expert Systems With Applications
 - Engineering Applications of Artificial Intelligence
 - Artificial Intelligence In Medicine
+- Ad Hoc Networks
 - The Journal of Supercomputing
 - International Journal of Machine Learning and Cybernetics
 
