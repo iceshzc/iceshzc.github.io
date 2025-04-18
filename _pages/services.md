@@ -9,6 +9,7 @@ permalink: /services
 ## Journal Reviewer
 - ACM TIST
 - Neural Networks
+- Information Processing and Management
 - Knowledge-Based Systems
 - Future Generation Computer Systems
 - Expert Systems With Applications
