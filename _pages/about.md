@@ -13,7 +13,7 @@ I am now an algorithmic engineer at JD.com, Inc. Before that, I participated in 
 
 I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a> in 2021 under the supervision of Prof. <a href="https://faculty.hitsz.edu.cn/yeyunming?lang=en">Yunming Ye</a>. My research areas are graph neural networks, knowledge graphs, spatio-temporal data mining and large language model and mainly focus on urban knowledge graph, question answering and knowledge reasoning.
 
->  <span>**I am always open to collaborating with remote students and researchers who are interested in graph neural networks, knowldge graphs and spatio-temporal data mining, etc. Please feel free to contact me.**</span> 
+>  <span>**I am always open to collaborating with remote students and researchers who are interested in graph neural networks, knowldge graphs and large language modles, etc. Please feel free to contact me.**</span> 
 ```zhichao [at] cshzc [dot] top
 ```
 
