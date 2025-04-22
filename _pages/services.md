@@ -26,6 +26,7 @@ permalink: /services
 - AAAI (2021 - 2022)
 - IJCAI (2021 - 2025)
 - ACM MM (2024)
+- ECAI (2025)
 - ICASSP (2023 - 2025)
 - IJCNN (2025)
 
