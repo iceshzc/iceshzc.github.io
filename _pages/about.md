@@ -20,6 +20,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
+    <p>• <em>2025.04</em>, 🎉 One paper was accepted to IJCAI'2025, congratulations to Nan</p>
     <p>• <em>2025.04</em>, I was invited to serve as a PC member for ECAI'2025</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
     <p>• <em>2025.01</em>, I was invited to serve as a reviewer for KDD'2025</p> 
