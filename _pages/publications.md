@@ -10,6 +10,8 @@ permalink: /publications
 # 📝 Publications 
 
 ## 2025
+- Chunyang Li **#**, Yanping Sun **#**, `Zhichao Huang`📧, and Jinjin Guo📧. Data Resource Summarization Via Term Retrieval Augmented Generation. In ICIC, 2025. <i style="font-size: 20px;" class="fa fa-file-pdf"></i> **oral paper**
+  
 - Bowen Zhang, `Zhichao Huang`, Guangning Xu, Xiaomao Fan, Mingyan Xiao, Genan Dai, Hu Huang. Core Knowledge Learning Framework for Graph Adaptation and Scalability Learning. In AAAI, 2025.  <a href="https://arxiv.org/abs/2407.01886"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> **oral paper**
 
 ## 2024
