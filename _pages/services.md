@@ -18,6 +18,7 @@ permalink: /services
 - Ad Hoc Networks
 - The Journal of Supercomputing
 - International Journal of Machine Learning and Cybernetics
+- International Journal of Applied Earth Observation and Geoinformation
 
 ## Conference PC/Reviewer
 - KDD, 2025 (Excellent Reviewer)
