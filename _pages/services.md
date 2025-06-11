@@ -21,7 +21,7 @@ permalink: /services
 - International Journal of Applied Earth Observation and Geoinformation
 
 ## Conference PC/Reviewer
-- KDD, 2025 (Excellent Reviewer)
+- KDD, 2025
 - ICML, 2025
 - ICLR, 2025
 - AAAI, 2021, 2022
