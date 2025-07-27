@@ -22,16 +22,11 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
-    <p>• <em>2025.07</em>, I was invited to serve as reviewer/PC for KDD'2026 and AAAI'2026</p>
     <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
-    <p>• <em>2025.04</em>, I was invited to serve as a PC member for ECAI'2025</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
-    <p>• <em>2025.01</em>, I was invited to serve as a reviewer for KDD'2025</p> 
-    <p>• <em>2024.12</em>, I was invited to serve as reviewers for ICML'2025, IJCAI'2025 and IJCNN'2025</p>
     <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as the oral presentation paper, congratulations to our co-authors Bowen and Guangning</p>
-    <p>• <em>2024.08</em>, I was invited to serve as reviwers for ICLR'2025 and ICASSP'2025</p>
     <p>• <em>2024.08</em>, 🎉 One paper was acceptd to Applied Intelligence Journal</p>
-    <p>• <em>2024.07</em>, 🎉 I was listed as a technical expert for the Beijing Science and Technology Project</p>
+    <p>• <em>2024.07</em>, 🎉 I was elected as a technical expert for the Beijing Science and Technology Project</p>
     <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
     <p>• <em>2023.12</em>, 🎉 I became an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
     <p>• <em>2023.02</em>, 🎉 Two corresponding author papers were accepted to ICASSP'2023</p>
