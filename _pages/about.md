@@ -17,8 +17,6 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 ```zhichao [at] cshzc [dot] top
 ```
 
-> <span style="color:red">New!!</span> We're looking for talented interns to join our team working on AI Agent systems and Large Language Model technologies. Please contact me if you are interested.
-
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
