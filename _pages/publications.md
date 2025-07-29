@@ -10,7 +10,7 @@ permalink: /publications
 # 📝 Publications 
 
 ## 2025
-- Chunyang Li **#**, Yanping Sun **#**, `Zhichao Huang`📧, and Jinjin Guo📧. TermRAG: Data Resource Summarization Via Term Retrieval Augmented Generation. In ICIC, 2025. <i style="font-size: 20px;" class="fa fa-file-pdf"></i> **oral paper**
+- Chunyang Li **#**, Yanping Sun **#**, `Zhichao Huang`📧, and Jinjin Guo📧. TermRAG: Data Resource Summarization Via Term Retrieval Augmented Generation. In ICIC, 2025. <a href="https://link.springer.com/chapter/10.1007/978-981-95-0017-8_19"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> **oral paper**
   
 - Bowen Zhang, `Zhichao Huang`, Guangning Xu, Xiaomao Fan, Mingyan Xiao, Genan Dai, Hu Huang. Core Knowledge Learning Framework for Graph. In AAAI, 2025.  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33438"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> **oral paper**
 
