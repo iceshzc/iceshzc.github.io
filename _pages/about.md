@@ -22,7 +22,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
   <div styple="padding-left: 1em;">
     <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
-    <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as the oral presentation paper, congratulations to our co-authors Bowen and Guangning</p>
+    <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as the oral presentation paper, congratulations to Bowen and Guangning</p>
     <p>• <em>2024.08</em>, 🎉 One paper was acceptd to Applied Intelligence Journal</p>
     <p>• <em>2024.07</em>, 🎉 I was elected as a technical expert for the Beijing Science and Technology Project</p>
     <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
