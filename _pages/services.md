@@ -21,6 +21,7 @@ permalink: /services
 - International Journal of Applied Earth Observation and Geoinformation
 
 ## Conference PC/Reviewer
+- WWW, 2026
 - KDD, <a href="https://kdd2025.kdd.org/research-track-program-committee/">2025</a>, 2026
 - ICML, 2025
 - ICLR, 2025
