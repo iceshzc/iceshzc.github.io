@@ -56,7 +56,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🤝 Collaborators
 - [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at Hong Kong Baptist University
 - [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Associate Professor at Shenzhen Technology University
-- [Jinjin Guo](https://openreview.net/profile?id=~JINJIN_GUO2), Algorithmic Engineer at JD.com
-- [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Research Fellow at HKUST/CityU/THU/MBZUAI
+- [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Research Fellow at CityU
+- [Xubo Qin](https://scholar.google.com/citations?user=3GRaz1AAAAAJ&hl=en), Researcher at TikTok
 
 <img class="svg" src="/images/hit_logo.jpeg" width="77pt"> <img class="svg" src="/images/hkbu_logo.png" width="105pt"> <img class="svg" src="/images/sztu_logo.png" width="50pt"> <img class="svg" src="/images/jd_logo.webp" width="73pt">
