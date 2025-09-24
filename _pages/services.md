@@ -30,6 +30,7 @@ permalink: /services
 - ACM MM, 2024
 - ECAI, 2025
 - ICASSP, 2023, 2024, 2025
+- PAKDD, 2026
 - IJCNN, 2025
 - IEEE MLSP, 2025
 
