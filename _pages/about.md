@@ -22,7 +22,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
-    <p>• <em>2025.09</em>, 🎉 I was elected a CCF Senior Member</p>
+    <p>• <em>2025.09</em>, 🎉 I was elected as a CCF Senior Member</p>
     <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
     <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as the oral presentation paper, congratulations to Bowen and Guangning</p>
