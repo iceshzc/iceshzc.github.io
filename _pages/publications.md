@@ -8,6 +8,7 @@ permalink: /publications
  -->
 
 # 📝 Publications 
+## 2026
 
 ## 2025
 - Chunyang Li **#**, Yanping Sun **#**, `Zhichao Huang`📧, and Jinjin Guo📧. TermRAG: Data Resource Summarization Via Term Retrieval Augmented Generation. In ICIC, 2025. <a href="https://link.springer.com/chapter/10.1007/978-981-95-0017-8_19"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> **oral paper**
