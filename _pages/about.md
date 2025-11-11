@@ -17,7 +17,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 ```zhichao [at] cshzc [dot] top
 ```
 
-> <span style="color:red">New!!</span> We're looking for talented interns to join our team working on ```training Vision-Language Models``` and applying it to AI Agent. If you are interested, please feel free to contact me.
+> <span style="color:red">New!!</span> We're looking for talented full-time employees and interns to join our team working on ```training Vision-Language Models``` and applying it to AI Agent. If you are interested, please feel free to contact me.
 
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
