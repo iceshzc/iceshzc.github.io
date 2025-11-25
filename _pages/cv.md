@@ -10,7 +10,5 @@ permalink: /cv
 - B.S. of Computer Science and Technology, <img class="svg" src="/images/ncu_logo.jpeg" width="27pt"> <a href="https://english.ncu.edu.cn/">Nanchang University</a>, 2009.09 - 2013.07
 
 # 💼 Work Experience
-- 2025.03 - Now,  <img class="svg" src="/images/jdi.jpeg" width="110pt">[JD Industrials](https://mro.jd.com/), Algorithm Engineer 
-- 2022.07 - 2025.03, <img class="svg" src="/images/jdt_logo.webp" width="40pt">[JD Technology](https://www.jdt.com.cn/), Algorithm Engineer
-- 2021.10 - 2022.07, <img class="svg" src="/images/jd_logo.webp" width="40pt">[JD.COM](https://www.jd.com), Doctor Management Trainee (DMT)
+- 2021.10 - Now, <img class="svg" src="/images/jd_logo.webp" width="40pt">[JD.COM](https://www.jd.com), Doctor Management Trainee (DMT) & Algorithm Engineer
 - 2017.11 - 2018.09, <img class="svg" src="/images/ailab_logo.webp" width="70pt">[Tencent AI Lab](https://ai.tencent.com/), Research Intern
