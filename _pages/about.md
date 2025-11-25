@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 # 😀 About Me
-I am now an algorithmic engineer at JD.com, Inc. Before that, I participated in a half-a-year-long rotation training in the same company as a Doctor Management Trainee (DMT).
+I am now an algorithm engineer at JD.com, Inc. Before that, I participated in a half-a-year-long rotation training in the same company as a Doctor Management Trainee (DMT).
 
 I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a> in 2021 under the supervision of Prof. <a href="https://faculty.hitsz.edu.cn/yeyunming?lang=en">Yunming Ye</a>. My research areas are knowledge graphs, LLMs and AI Agent, mainly focus on intent recognition, question answering and knowledge reasoning.
 
@@ -23,7 +23,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
     <p>• <em>2025.11</em>, 🎉 One paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
-    <p>• <em>2025.09</em>, 🎉 I was elected as a CCF Senior Member</p>
+    <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
     <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
     <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
@@ -63,5 +63,11 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 - [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Associate Professor at SZTU
 - [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Research Fellow at CityUHK
 - [Xubo Qin](https://scholar.google.com/citations?user=3GRaz1AAAAAJ&hl=en), Researcher at TikTok
+- [Jinjin Guo](https://openreview.net/profile?id=%7EJINJIN_GUO2), Algorithm Engineer at JD.com
+- [Guanlin Li](https://epsilon-lee.github.io/), Algorithm Engineer at JD.com
 
-<img class="svg" src="/images/hkbu_logo.png" width="105pt"> <img class="svg" src="/images/sztu_logo.png" width="50pt"> <img class="svg" src="/images/cityu.png" width="73pt"> <img class="svg" src="/images/tiktok.png" width="50pt">
+<img class="svg" src="/images/hkbu_logo.png" width="105pt"> 
+<img class="svg" src="/images/sztu_logo.png" width="50pt"> 
+<img class="svg" src="/images/cityu.png" width="73pt"> 
+<img class="svg" src="/images/tiktok.png" width="50pt">
+<img class="svg" src="/images/jd_logo.webp" width="75pt">
