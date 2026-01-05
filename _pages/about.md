@@ -22,7 +22,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
-    <p>• <em>2026.01</em>, 🎉 One paper was accepted to ACM TIST, con gratulations to Professor Gan</p>
+    <p>• <em>2026.01</em>, 🎉 One paper was accepted to ACM TIST, congratulations to Professor Gan</p>
     <p>• <em>2025.11</em>, 🎉 One paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
     <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
     <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
