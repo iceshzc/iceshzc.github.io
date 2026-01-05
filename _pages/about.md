@@ -22,6 +22,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
+    <p>• <em>2026.01</em>, 🎉 One paper was accepted to ACM TIST, con gratulations to Professor Gan</p>
     <p>• <em>2025.11</em>, 🎉 One paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
     <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
     <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
@@ -47,6 +48,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
   </div>
 </div>
 
+<!-- 
 # 📝 Selected Publications
 - `Zhichao Huang`, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
 
@@ -58,10 +60,13 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 
 - Guangning Xu, Jinyang Yang, Jinjin Guo, `Zhichao Huang`📧, and Bowen Zhang📧. Int-gnn: a user intention aware graph neural network for session-based recommendation. In ICASSP, 2023.  <a href="https://ieeexplore.ieee.org/abstract/document/10097031"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/IntGNN_ICASSP2023"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
 
+-->
+
 # 🤝 Collaborators
 - [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at HKBU
 - [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Associate Professor at SZTU
 - [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Research Fellow at CityUHK
+- [Wensheng Gan](https://wsgan001.github.io/), Associate Professor at Jinan University
 - [Xubo Qin](https://scholar.google.com/citations?user=3GRaz1AAAAAJ&hl=en), Researcher at TikTok
 - [Jinjin Guo](https://openreview.net/profile?id=%7EJINJIN_GUO2), Algorithm Engineer at JD.com
 - [Guanlin Li](https://epsilon-lee.github.io/), Algorithm Engineer at JD.com
@@ -69,5 +74,6 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 <img class="svg" src="/images/hkbu_logo.png" width="105pt"> 
 <img class="svg" src="/images/sztu_logo.png" width="50pt"> 
 <img class="svg" src="/images/cityu.png" width="73pt"> 
-<img class="svg" src="/images/tiktok.png" width="50pt">
+<img class="svg" src="/images/jinan_logo.png" width="100pt">
+<img class="svg" src="/images/tiktok.png" width="55pt">
 <img class="svg" src="/images/jd_logo.webp" width="75pt">
