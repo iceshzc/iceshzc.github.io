@@ -13,6 +13,8 @@ I am now an algorithm engineer at JD.com, Inc. Before that, I participated in a 
 
 I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a> in 2021 under the supervision of Prof. <a href="https://faculty.hitsz.edu.cn/yeyunming?lang=en">Yunming Ye</a>. My research areas are knowledge graphs, LLMs and AI Agent, mainly focus on intent recognition, question answering and knowledge reasoning.
 
+For ```detailed papers```, please refer to **<a href="/publications">my publications</a>**.
+
 >  <span>**I am always open to collaborating with remote students and researchers who are interested in knowledge graphs, LLMs and AI Agent, etc. Please feel free to contact me.**</span> 
 ```zhichao [at] cshzc [dot] top
 ```
