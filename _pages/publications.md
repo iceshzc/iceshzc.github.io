@@ -9,6 +9,8 @@ permalink: /publications
 
 # 📝 Publications 
 ## 2026
+- Jinjin Guo, Yexin Li, **Zhichao Huang**, etc. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+
 - Huashen Lu, Wensheng Gan, Guoting Chen, **Zhichao Huang**, Philip S. Yu. Graph Attention-based Adaptive Transfer Learning for Link Prediction. ACM Transactions on Intelligent Systems and Technology, 2026. <a href="https://arxiv.org/abs/2512.22252"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
   
 - Yingxu Wang, Mengzhu Wang, **Zhichao Huang**, Suyu Liu, Nan Yin. Nested Graph Pseudo-Label Refinement for Noisy Label Domain Adaptation Learning. In AAAI, 2026. <a href="https://arxiv.org/abs/2508.00716"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> **oral paper**
