@@ -31,7 +31,7 @@ permalink: /services
 - ECAI, 2025
 - ICASSP, 2023, 2024, 2025
 - PAKDD, <a href="https://www.pakdd2026.org/program-committee">2026</a>
-- IJCNN, 2025
+- IJCNN, 2025, 2026
 - IEEE MLSP, 2025
 
 ## Organizing Committee
