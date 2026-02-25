@@ -24,7 +24,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
-    <p>• <em>2026.02</em>, 🎉 I was elected as a external technical expert for the Shandong Science and Technology Project</p>
+    <p>• <em>2026.02</em>, 🎉 I was elected as an external technical expert for the Shandong Science and Technology Project</p>
     <p>• <em>2026.01</em>, 🎉 1 paper was accepted to WWW'2026, congratulations to Jinjin</p>
     <p>• <em>2026.01</em>, 🎉 1 paper was accepted to ACM TIST, congratulations to Professor Gan</p>
     <p>• <em>2025.11</em>, 🎉 1 paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
