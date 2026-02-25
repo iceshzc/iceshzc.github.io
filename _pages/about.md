@@ -24,18 +24,19 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 # 🔥 News
 <div style="height: 150px; overflow-y: scroll;">
   <div styple="padding-left: 1em;">
-    <p>• <em>2026.01</em>, 🎉 One paper was accepted to WWW'2026, congratulations to Jinjin</p>
-    <p>• <em>2026.01</em>, 🎉 One paper was accepted to ACM TIST, congratulations to Professor Gan</p>
-    <p>• <em>2025.11</em>, 🎉 One paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
+    <p>• <em>2026.02</em>, 🎉 I was elected as a external technical expert for the Shandong Science and Technology Project</p>
+    <p>• <em>2026.01</em>, 🎉 1 paper was accepted to WWW'2026, congratulations to Jinjin</p>
+    <p>• <em>2026.01</em>, 🎉 1 paper was accepted to ACM TIST, congratulations to Professor Gan</p>
+    <p>• <em>2025.11</em>, 🎉 1 paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
     <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
-    <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
+    <p>• <em>2025.04</em>, 🎉 1 paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
-    <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
-    <p>• <em>2024.08</em>, 🎉 One paper was acceptd to Applied Intelligence Journal</p>
+    <p>• <em>2024.12</em>, 🎉 1 paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
+    <p>• <em>2024.08</em>, 🎉 1 paper was acceptd to Applied Intelligence Journal</p>
     <p>• <em>2024.07</em>, 🎉 I was elected as a technical expert for the Beijing Science and Technology Project</p>
     <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
-    <p>• <em>2023.12</em>, 🎉 I became an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
-    <p>• <em>2023.02</em>, 🎉 Two corresponding author papers were accepted to ICASSP'2023</p>
+    <p>• <em>2023.12</em>, 🎉 I was an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
+    <p>• <em>2023.02</em>, 🎉 2 corresponding author papers were accepted to ICASSP'2023</p>
   </div>
 </div>
 
