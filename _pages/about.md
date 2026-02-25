@@ -43,6 +43,7 @@ I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Tec
 # 🎖 Honors and Awards
 <div style="height: 150px; overflow-y: scroll;">
   <div style="padding-left: 1em;">
+    <p>• <em>2026.02</em>, External techinical Expert for the Shandong Science and Technology Project</p>
     <p>• <em>2025.09</em>, CCF Senior Member</p>
     <p>• <em>2024.07</em>, Techinical Expert for the Beijing Science and Technology Project</p>
     <p>• <em>2023.12</em>, Yi Qilin Excellent Talent</p>
