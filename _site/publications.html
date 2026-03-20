@@ -1,34 +1,20 @@
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+    <script>
+(function () {
+  try {
+    var t = localStorage.getItem('site-theme');
+    if (t !== 'dark' && t !== 'light') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .scroll-to-top {
-            position: fixed;
-            bottom: 50px;
-            right: 50px;
-            background-color: #5cb85c;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 100%;
-            cursor: pointer;
-            display: none; /* 默认隐藏 */
-        }
-        .scroll-to-top:hover {
-            background-color: #5c89b8;
-        }
-    </style>
 
     <meta charset="utf-8">
 
@@ -86,7 +72,11 @@
 <head>
   <base target="_blank">
 </head>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
@@ -94,7 +84,7 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
@@ -112,54 +102,82 @@
 
   </head>
 
-  <body>
+  <body class="site-body has-sidebar">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
     <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+
+  <div class="masthead__inner-wrap masthead__inner-wrap--split">
+
+    <div class="masthead__menu masthead__menu--grow">
+
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+
+        <button type="button" aria-label="Menu"><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/hit_logo.jpeg" width="80pt"></li>
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/name_cn.png" width="108pt"></li>
- 
+
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item masthead-logo" src="/images/partners/hit_logo.png" alt="HIT"></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/" target="_self">Home</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/publications" target="_self">Publications</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/talks" target="_self">Talks</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/students" target="_self">Students</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/services" target="_self">Services</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/cv" target="_self">CV</a></li>
+
           
+
         </ul>
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
+
     </div>
+
+    <button type="button" class="theme-toggle theme-toggle--masthead" id="theme-toggle" aria-label="Switch color theme">
+
+      <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+
+      <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+
+    </button>
+
   </div>
+
 </div>
+
+
     <div id="main" role="main">
 
       
-  <div class="sidebar sticky">
-  
-
-<div itemscope itemtype="http://schema.org/Person" class="profile_box">
-
-  <div class="author__avatar">
+<div class="sidebar"><div class="sidebar__track"><div itemscope itemtype="http://schema.org/Person" class="profile_box"><div class="profile_box-card"><div class="author__avatar">
     <img src="images/photo.png" class="author__avatar" alt="Zhichao Huang">
   </div>
 
   <div class="author__content">
     <h3 class="author__name">Zhichao Huang</h3>
-    <p class="author__bio">Algorithmic Engineer at JD.com, Inc. Foucsing on KGs, LLMs and AI Agent.</p>
+    <p class="author__bio">Algorithm Engineer at JD.com, Inc. Focusing on KGs, LLMs and AI Agent.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -210,12 +228,10 @@
       
       
 
-      <script type="text/javascript" id="clustrmaps"
-        src="//clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
-
       
       
     </ul>
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
       <div class="author__urls_sm">
       
       
@@ -258,15 +274,14 @@
       
     </div>
   </div>
+  </div>
+</div>
+</div>
 </div>
 
-  
-  </div>
 
     
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        <meta itemprop="headline" content="Publications">
-        <div class="page__inner-wrap">
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork"><meta itemprop="headline" content="Publications"><div class="page__inner-wrap">
           <section class="page__content" style="font-size: 16.2px;" itemprop="text">
             <!-- # 📃 Preprint
  -->
@@ -274,94 +289,102 @@
 <h1 id="-publications">📝 Publications</h1>
 <h2 id="2026">2026</h2>
 <ul>
-  <li>Yingxu Wang, Mengzhu Wang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Suyu Liu, Nan Yin. Nested Graph Pseudo-Label Refinement for Noisy Label Domain Adaptation Learning. In AAAI, 2026. <a href="https://arxiv.org/abs/2508.00716"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <strong>oral paper</strong></li>
+  <li>
+    <p>Jinjin Guo, Yexin Li, <strong>Zhichao Huang</strong>, etc. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+  </li>
+  <li>
+    <p>Huashen Lu, Wensheng Gan, Guoting Chen, <strong>Zhichao Huang</strong>, Philip S. Yu. Graph Attention-based Adaptive Transfer Learning for Link Prediction. ACM Transactions on Intelligent Systems and Technology, 2026. <a href="https://arxiv.org/abs/2512.22252"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+  </li>
+  <li>
+    <p>Yingxu Wang, Mengzhu Wang, <strong>Zhichao Huang</strong>, Suyu Liu, Nan Yin. Nested Graph Pseudo-Label Refinement for Noisy Label Domain Adaptation Learning. In AAAI, 2026. <a href="https://arxiv.org/abs/2508.00716"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <strong>oral paper</strong></p>
+  </li>
 </ul>
 
 <h2 id="2025">2025</h2>
 <ul>
   <li>
-    <p>Chunyang Li <strong>#</strong>, Yanping Sun <strong>#</strong>, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>📧, and Jinjin Guo📧. TermRAG: Data Resource Summarization Via Term Retrieval Augmented Generation. In ICIC, 2025. <a href="https://link.springer.com/chapter/10.1007/978-981-95-0017-8_19"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <strong>oral paper</strong></p>
+    <p>Chunyang Li <strong>#</strong>, Yanping Sun <strong>#</strong>, <strong>Zhichao Huang</strong>📧, and Jinjin Guo📧. TermRAG: Data Resource Summarization Via Term Retrieval Augmented Generation. In ICIC, 2025. <a href="https://link.springer.com/chapter/10.1007/978-981-95-0017-8_19"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <strong>oral paper</strong></p>
   </li>
   <li>
-    <p>Bowen Zhang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Guangning Xu, Xiaomao Fan, Mingyan Xiao, Genan Dai, Hu Huang. Core Knowledge Learning Framework for Graph. In AAAI, 2025.  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33438"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <strong>oral paper</strong></p>
+    <p>Bowen Zhang, <strong>Zhichao Huang</strong>, Guangning Xu, Xiaomao Fan, Mingyan Xiao, Genan Dai, Hu Huang. Core Knowledge Learning Framework for Graph. In AAAI, 2025.  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33438"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <strong>oral paper</strong></p>
   </li>
 </ul>
 
 <h2 id="2024">2024</h2>
 <ul>
   <li>
-    <p>Bowen Zhang, Daijun Ding, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Ang Li, Yangyang Li, Baoquan Zhang, and Hu Huang. Knowledge-augmented interpretable network for zero-shot stance detection on social media. IEEE Transactions on Computational Social Systems, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10537616"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p>Bowen Zhang, Daijun Ding, <strong>Zhichao Huang</strong>, Ang Li, Yangyang Li, Baoquan Zhang, and Hu Huang. Knowledge-augmented interpretable network for zero-shot stance detection on social media. IEEE Transactions on Computational Social Systems, 2024. <a href="https://ieeexplore.ieee.org/abstract/document/10537616"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p>Guangning Xu, Michael K Ng, Yunming Ye, Xutao Li, Ge Song, Bowen Zhang, and <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>. TLS-MWP: A Tensor-based Long- and Short-range Convolution for Multiple Weather Prediction. IEEE Transactions on Circuits and Systems for Video Technology. IEEE Transactions on Circuits and Systems for Video Technology, 2024. <a href="https://ieeexplore.ieee.org/document/10475377/"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="hhttps://github.com/xuguangning1218/TLS_MWP"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p>Guangning Xu, Michael K Ng, Yunming Ye, Xutao Li, Ge Song, Bowen Zhang, and <strong>Zhichao Huang</strong>. TLS-MWP: A Tensor-based Long- and Short-range Convolution for Multiple Weather Prediction. IEEE Transactions on Circuits and Systems for Video Technology, 2024. <a href="https://ieeexplore.ieee.org/document/10475377/"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="hhttps://github.com/xuguangning1218/TLS_MWP"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p>Xuebo Cheng, Xiaohui Huang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Nan Jiang. An Offline-to-Online Reinforcement Learning Approach Based on Multi-action Evaluation with Policy Extension.Applied Intelligence, 2024. <a href="https://link.springer.com/article/10.1007/s10489-024-05806-2"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p>Xuebo Cheng, Xiaohui Huang, <strong>Zhichao Huang</strong>, Nan Jiang. An Offline-to-Online Reinforcement Learning Approach Based on Multi-action Evaluation with Policy Extension.Applied Intelligence, 2024. <a href="https://link.springer.com/article/10.1007/s10489-024-05806-2"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p>Daijun Ding, Li Dong, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Guangning Xu, Xu Huang, Bo Liu, Liwen Jing, and Bowen Zhang. Edda: A encoder-decoder data augmentation framework for zero-shot stance detection. In COLING, 2024. <a href="https://arxiv.org/abs/2403.15715"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/Szu-Ddj/EDDA"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p>Daijun Ding, Li Dong, <strong>Zhichao Huang</strong>, Guangning Xu, Xu Huang, Bo Liu, Liwen Jing, and Bowen Zhang. Edda: A encoder-decoder data augmentation framework for zero-shot stance detection. In COLING, 2024. <a href="https://arxiv.org/abs/2403.15715"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/Szu-Ddj/EDDA"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
 </ul>
 
 <h2 id="2023">2023</h2>
 <ul>
   <li>
-    <p>Guangning Xu, Yan Li, Chi Ma, Xutao Li, Yunming Ye, Qingquan Lin, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, and Shidong Chen.
+    <p>Guangning Xu, Yan Li, Chi Ma, Xutao Li, Yunming Ye, Qingquan Lin, <strong>Zhichao Huang</strong>, and Shidong Chen.
 Tfg-net: Tropical cyclone intensity estimation from a fine-grained perspective with the graph convolution neural network. Engineering Applications of Artificial Intelligence, 118:105673, 2023. <a href="https://www.sciencedirect.com/science/article/pii/S0952197622006637"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/TI_Estimation"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p>Jinjin Guo, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>📧, Guangning Xu, Bowen Zhang, and Chaoqun Duan📧. Knowledge-aware few shot learning for event detection from short texts. In ICASSP, 2023. <a href="https://ieeexplore.ieee.org/document/10095891"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p>Jinjin Guo, <strong>Zhichao Huang</strong>📧, Guangning Xu, Bowen Zhang, and Chaoqun Duan📧. Knowledge-aware few shot learning for event detection from short texts. In ICASSP, 2023. <a href="https://ieeexplore.ieee.org/document/10095891"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p>Guangning Xu, Jinyang Yang, Jinjin Guo, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>📧, and Bowen Zhang📧. Int-gnn: a user intention aware graph neural network for session-based recommendation. In ICASSP, 2023.  <a href="https://ieeexplore.ieee.org/abstract/document/10097031"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/IntGNN_ICASSP2023"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p>Guangning Xu, Jinyang Yang, Jinjin Guo, <strong>Zhichao Huang</strong>📧, and Bowen Zhang📧. Int-gnn: a user intention aware graph neural network for session-based recommendation. In ICASSP, 2023.  <a href="https://ieeexplore.ieee.org/abstract/document/10097031"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/IntGNN_ICASSP2023"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p>Bowen Zhang, Daijun Ding, Guangning Xu, Jinjin Guo, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, and Xu Huang. Twitter stance detection via neural production systems. In ICASSP, 2023. <a href="https://ieeexplore.ieee.org/document/10094597"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p>Bowen Zhang, Daijun Ding, Guangning Xu, Jinjin Guo, <strong>Zhichao Huang</strong>, and Xu Huang. Twitter stance detection via neural production systems. In ICASSP, 2023. <a href="https://ieeexplore.ieee.org/document/10094597"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
 </ul>
 
 <h2 id="2022">2022</h2>
 <ul>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, Yunming Ye, Baoquan Zhang, Guangning Xu, and Wensheng Gan. Multi-view knowledge graph fusion via knowledge-aware attentional graph neural network. Applied Intelligence, pages 1–20, 2022. <a href="https://link.springer.com/article/10.1007/s10489-022-03667-1"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://code.aliyun.com/hithzc/KAGNN"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p><strong>Zhichao Huang</strong>, Xutao Li, Yunming Ye, Baoquan Zhang, Guangning Xu, and Wensheng Gan. Multi-view knowledge graph fusion via knowledge-aware attentional graph neural network. Applied Intelligence, pages 1–20, 2022. <a href="https://link.springer.com/article/10.1007/s10489-022-03667-1"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://code.aliyun.com/hithzc/KAGNN"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p>Guangning Xu, Xutao Li, Shanshan Feng, Yunming Ye, Zhihua Tu, Kenghong Lin, and <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>. LS-NTP: Unifying long- and short-range spatial correlations for near-surface temperature prediction. Neural Networks, 155:242–257, 2022. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608022002787"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/LS_NTP"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p>Guangning Xu, Xutao Li, Shanshan Feng, Yunming Ye, Zhihua Tu, Kenghong Lin, and <strong>Zhichao Huang</strong>. LS-NTP: Unifying long- and short-range spatial correlations for near-surface temperature prediction. Neural Networks, 155:242–257, 2022. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608022002787"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/LS_NTP"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p>Bowen Zhang, Xu Huang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Hu Huang, Baoquan Zhang, Xianghua Fu, and Liwen Jing. Sentiment interpretable logic tensor network for aspect-term sentiment analysis. In COLING, pages 6705–6714, 2022. <a href="https://aclanthology.org/2022.coling-1.582/"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p>Bowen Zhang, Xu Huang, <strong>Zhichao Huang</strong>, Hu Huang, Baoquan Zhang, Xianghua Fu, and Liwen Jing. Sentiment interpretable logic tensor network for aspect-term sentiment analysis. In COLING, pages 6705–6714, 2022. <a href="https://aclanthology.org/2022.coling-1.582/"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
 </ul>
 
 <h2 id="2021-and-before">2021 and Before</h2>
 <ul>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Yuxi Sun, Yunming Ye, Wensheng Gan, and Wei-Che Chien. Inama: An interactive attentional model for node alignment. Journal of Internet Technology, 22(7):1587–1597, 2021. <a href="https://www.researchgate.net/profile/Wensheng-Gan/publication/357306249_INAMA_An_Interactive_Attentional_Model_for_Node_Alignment/links/638c05f3ca2e4b239c889c01/INAMA-An-Interactive-Attentional-Model-for-Node-Alignment.pdf"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p><strong>Zhichao Huang</strong>, Yuxi Sun, Yunming Ye, Wensheng Gan, and Wei-Che Chien. Inama: An interactive attentional model for node alignment. Journal of Internet Technology, 22(7):1587–1597, 2021. <a href="https://www.researchgate.net/profile/Wensheng-Gan/publication/357306249_INAMA_An_Interactive_Attentional_Model_for_Node_Alignment/links/638c05f3ca2e4b239c889c01/INAMA-An-Interactive-Attentional-Model-for-Node-Alignment.pdf"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p>Baoquan Zhang, Xutao Li, Yunming Ye, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, and Lisai Zhang. Prototype completion with primitive knowledge for few-shot learning. In CVPR, pages 3754–3762, 2021. <a href="http://openaccess.thecvf.com/content/CVPR2021/html/Zhang_Prototype_Completion_With_Primitive_Knowledge_for_Few-Shot_Learning_CVPR_2021_paper.html"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/zhangbq-research/Prototype_Completion_for_FSL"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p>Baoquan Zhang, Xutao Li, Yunming Ye, <strong>Zhichao Huang</strong>, and Lisai Zhang. Prototype completion with primitive knowledge for few-shot learning. In CVPR, pages 3754–3762, 2021. <a href="http://openaccess.thecvf.com/content/CVPR2021/html/Zhang_Prototype_Completion_With_Primitive_Knowledge_for_Few-Shot_Learning_CVPR_2021_paper.html"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/zhangbq-research/Prototype_Completion_for_FSL"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p>Yuxi Sun, Shanshan Feng, Yunming Ye, Xutao Li, Jian Kang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, and Chuyao Luo. Multisensor fusion and explicit semantic preserving-based deep hashing for cross-modal remote sensing imageretrieval. IEEE Transactions on Geoscience and Remote Sensing, 60:1–14, 2021. <a href="https://ieeexplore.ieee.org/abstract/document/9656147/"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p>Yuxi Sun, Shanshan Feng, Yunming Ye, Xutao Li, Jian Kang, <strong>Zhichao Huang</strong>, and Chuyao Luo. Multisensor fusion and explicit semantic preserving-based deep hashing for cross-modal remote sensing imageretrieval. IEEE Transactions on Geoscience and Remote Sensing, 60:1–14, 2021. <a href="https://ieeexplore.ieee.org/abstract/document/9656147/"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
+    <p><strong>Zhichao Huang</strong>, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
   </li>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, Yunming Ye, Feng Li, Feng Liu, and Yuan Yao. Tlvane: a two-level variation model for attributed network embedding. Neural Computing and Applications, 32:4835–4847, 2020. <a href="https://link.springer.com/article/10.1007/s00521-018-3875-5"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p><strong>Zhichao Huang</strong>, Xutao Li, Yunming Ye, Feng Li, Feng Liu, and Yuan Yao. Tlvane: a two-level variation model for attributed network embedding. Neural Computing and Applications, 32:4835–4847, 2020. <a href="https://link.springer.com/article/10.1007/s00521-018-3875-5"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, and Yunming Ye. Aligning users across social networks via intra and inter attentions. In APWeb-WAIM 2020, pages 162–169, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-60259-8_13"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p><strong>Zhichao Huang</strong>, Xutao Li, and Yunming Ye. Aligning users across social networks via intra and inter attentions. In APWeb-WAIM 2020, pages 162–169, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-60259-8_13"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p>Yuan Yao, Xutao Li, Yunming Ye, Feng Liu, Michael K Ng, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, and Yu Zhang. Low-resolution
+    <p>Yuan Yao, Xutao Li, Yunming Ye, Feng Liu, Michael K Ng, <strong>Zhichao Huang</strong>, and Yu Zhang. Low-resolution
 image categorization via heterogeneous domain adaptation. Knowledge-Based Systems, 163:656–665, 2019. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705118304787"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Yunming Ye, Xutao Li, Feng Liu, and Huajie Chen. Joint weighted nonnegative matrix factorization for mining attributed graphs. In PAKDD 2017, pages 368–380, 2017. <a href="https://link.springer.com/chapter/10.1007/978-3-319-57454-7_29"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
+    <p><strong>Zhichao Huang</strong>, Yunming Ye, Xutao Li, Feng Liu, and Huajie Chen. Joint weighted nonnegative matrix factorization for mining attributed graphs. In PAKDD 2017, pages 368–380, 2017. <a href="https://link.springer.com/chapter/10.1007/978-3-319-57454-7_29"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
   <li>
-    <p>Yuan Yao, Yan Li, Ke Wang, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, and Yunming Ye. A semi-supervised clustering method
+    <p>Yuan Yao, Yan Li, Ke Wang, <strong>Zhichao Huang</strong>, and Yunming Ye. A semi-supervised clustering method
 through bottleneck distance exploration. In ICSS, pages 115–121, 2016. <a href="https://ieeexplore.ieee.org/abstract/document/8057402"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
   </li>
 </ul>
@@ -373,6 +396,64 @@ through bottleneck distance exploration. In ICSS, pages 115–121, 2016. <a href
     </div>
 
     <script src="assets/js/main.min.js"></script>
+
+<script>
+(function () {
+  function collapseExpandLabel(n) {
+    return "Show " + n + " more";
+  }
+
+  function collapseCollapseLabel() {
+    return "Show less";
+  }
+
+  function refreshCollapsePanel(panel) {
+    var btn = panel.querySelector(".collapse-list__toggle");
+    if (!btn || btn.hidden) return;
+    var extra = parseInt(panel.getAttribute("data-collapse-extra") || "0", 10);
+    var expanded = panel.classList.contains("is-expanded");
+    btn.textContent = expanded ? collapseCollapseLabel() : collapseExpandLabel(extra);
+  }
+
+  function initCollapseLists() {
+    document.querySelectorAll(".collapse-list").forEach(function (panel) {
+      if (panel.getAttribute("data-collapse-bound") === "1") return;
+      var n = parseInt(panel.getAttribute("data-collapse-count") || "6", 10);
+      var inner = panel.querySelector(".collapse-list__inner");
+      var btn = panel.querySelector(".collapse-list__toggle");
+      if (!inner || !btn) return;
+
+      var items = Array.prototype.filter.call(inner.children, function (el) {
+        return el.tagName === "P";
+      });
+      if (items.length <= n) return;
+
+      panel.setAttribute("data-collapse-bound", "1");
+      var extra = items.length - n;
+      panel.setAttribute("data-collapse-extra", String(extra));
+
+      for (var i = n; i < items.length; i++) {
+        items[i].classList.add("collapse-list__item--collapsed");
+      }
+
+      btn.hidden = false;
+      btn.setAttribute("aria-expanded", "false");
+      refreshCollapsePanel(panel);
+
+      btn.addEventListener("click", function () {
+        var expanded = panel.classList.toggle("is-expanded");
+        for (var j = n; j < items.length; j++) {
+          items[j].classList.toggle("collapse-list__item--collapsed", !expanded);
+        }
+        btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+        refreshCollapsePanel(panel);
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initCollapseLists);
+})();
+</script>
 
 
 
@@ -408,7 +489,7 @@ through bottleneck distance exploration. In ICSS, pages 115–121, 2016. <a href
     
     <br>
     <div class="footer_copyright">
-      <span>&copy; 2025 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Nov. 25th, 2025.</span>
+      <span>&copy; 2026 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Jan. 5th, 2026.</span>
     </div>
     
     <button class="scroll-to-top" id="scrollTopBtn">⬆</button>
@@ -418,15 +499,37 @@ through bottleneck distance exploration. In ICSS, pages 115–121, 2016. <a href
         function scrollFunction() {
             var button = document.getElementById("scrollTopBtn");
             if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                button.style.display = "block";
+                button.classList.add("is-visible");
             } else {
-                button.style.display = "none";
+                button.classList.remove("is-visible");
             }
         }
 
         document.getElementById("scrollTopBtn").addEventListener("click", function() {
             window.scrollTo({top: 0, behavior: 'smooth'});
         });
+
+        (function () {
+            var root = document.documentElement;
+            var btn = document.getElementById("theme-toggle");
+            if (!btn) return;
+            function syncMeta(theme) {
+                var meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute("content", theme === "dark" ? "#0b1220" : "#f8fafc");
+            }
+            function themeAria(theme) {
+                return theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+            }
+            syncMeta(root.getAttribute("data-theme") || "light");
+            btn.setAttribute("aria-label", themeAria(root.getAttribute("data-theme") || "light"));
+            btn.addEventListener("click", function () {
+                var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+                root.setAttribute("data-theme", next);
+                try { localStorage.setItem("site-theme", next); } catch (e) {}
+                syncMeta(next);
+                btn.setAttribute("aria-label", themeAria(next));
+            });
+        })();
     </script>
 
   </body>

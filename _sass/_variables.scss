@@ -13,8 +13,8 @@
    $indent-var                 : 0.5em;
    
    /* system typefaces */
-   $serif                      :  "Trebuchet MS",sans-serif; // Georgia, Times, sans-serif;
-   $sans-serif                 : "Trebuchet MS", Helvetica,"Source Han Sans", "Microsoft YaHei", sans-serif;
+   $serif                      : "Source Serif 4", "Noto Serif SC", Georgia, "Songti SC", serif;
+   $sans-serif                 : "Plus Jakarta Sans", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
    // $sans-serif                 : Georgia, serif, sans-serif;
    
    // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -56,19 +56,19 @@
    $light-gray                 : mix(#fff, $gray, 50%);
    $lighter-gray               : mix(#fff, $gray, 90%);
    
-   $body-color                 : #fff;
-   $background-color           : #fff;
+   $body-color                 : #f8fafc;
+   $background-color           : #f1f5f9;
    $code-background-color      : #EDEDEB;
    $code-text-color           : #E65555;
    $code-background-color-dark : $light-gray;
-   $text-color                 : $dark-gray;
-   $border-color               : $lighter-gray;
+   $text-color                 : #1e293b;
+   $border-color               : rgba(15, 23, 42, 0.08);
    
    $primary-color              : #7a8288;
    $success-color              : #62c462;
    $warning-color              : #f89406;
    $danger-color               : #ee5f5b;
-   $info-color                 : #224b8d;
+   $info-color                 : #1d4ed8;
    // $info-color                 : #52adc8;
    
    /* brands */

@@ -1,34 +1,20 @@
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+    <script>
+(function () {
+  try {
+    var t = localStorage.getItem('site-theme');
+    if (t !== 'dark' && t !== 'light') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .scroll-to-top {
-            position: fixed;
-            bottom: 50px;
-            right: 50px;
-            background-color: #5cb85c;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 100%;
-            cursor: pointer;
-            display: none; /* 默认隐藏 */
-        }
-        .scroll-to-top:hover {
-            background-color: #5c89b8;
-        }
-    </style>
 
     <meta charset="utf-8">
 
@@ -88,7 +74,11 @@
 <head>
   <base target="_blank">
 </head>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
@@ -96,7 +86,7 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
@@ -114,54 +104,82 @@
 
   </head>
 
-  <body>
+  <body class="site-body has-sidebar">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
     <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+
+  <div class="masthead__inner-wrap masthead__inner-wrap--split">
+
+    <div class="masthead__menu masthead__menu--grow">
+
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+
+        <button type="button" aria-label="Menu"><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/hit_logo.jpeg" width="80pt"></li>
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/name_cn.png" width="108pt"></li>
- 
+
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item masthead-logo" src="/images/partners/hit_logo.png" alt="HIT"></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/" target="_self">Home</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/publications" target="_self">Publications</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/talks" target="_self">Talks</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/students" target="_self">Students</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/services" target="_self">Services</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/cv" target="_self">CV</a></li>
+
           
+
         </ul>
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
+
     </div>
+
+    <button type="button" class="theme-toggle theme-toggle--masthead" id="theme-toggle" aria-label="Switch color theme">
+
+      <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+
+      <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+
+    </button>
+
   </div>
+
 </div>
+
+
     <div id="main" role="main">
 
       
-  <div class="sidebar sticky">
-  
-
-<div itemscope itemtype="http://schema.org/Person" class="profile_box">
-
-  <div class="author__avatar">
+<div class="sidebar"><div class="sidebar__track"><div itemscope itemtype="http://schema.org/Person" class="profile_box"><div class="profile_box-card"><div class="author__avatar">
     <img src="images/photo.png" class="author__avatar" alt="Zhichao Huang">
   </div>
 
   <div class="author__content">
     <h3 class="author__name">Zhichao Huang</h3>
-    <p class="author__bio">Algorithmic Engineer at JD.com, Inc. Foucsing on KGs, LLMs and AI Agent.</p>
+    <p class="author__bio">Algorithm Engineer at JD.com, Inc. Focusing on KGs, LLMs and AI Agent.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -212,12 +230,10 @@
       
       
 
-      <script type="text/javascript" id="clustrmaps"
-        src="//clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
-
       
       
     </ul>
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
       <div class="author__urls_sm">
       
       
@@ -260,20 +276,21 @@
       
     </div>
   </div>
+  </div>
+</div>
+</div>
 </div>
 
-  
-  </div>
 
     
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        <meta itemprop="headline" content="">
-        <div class="page__inner-wrap">
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork"><meta itemprop="headline" content=""><div class="page__inner-wrap">
           <section class="page__content" style="font-size: 16.2px;" itemprop="text">
             <h1 id="-about-me">😀 About Me</h1>
 <p>I am now an algorithm engineer at JD.com, Inc. Before that, I participated in a half-a-year-long rotation training in the same company as a Doctor Management Trainee (DMT).</p>
 
-<p>I earned my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a> in 2021 under the supervision of Prof. <a href="https://faculty.hitsz.edu.cn/yeyunming?lang=en">Yunming Ye</a>. My research areas are knowledge graphs, LLMs and AI Agent, mainly focus on intent recognition, question answering and knowledge reasoning.</p>
+<p>I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a> in 2021 under the supervision of Prof. <a href="https://faculty.hitsz.edu.cn/yeyunming?lang=en">Yunming Ye</a>. My research areas are knowledge graphs, LLMs and AI Agent, mainly focus on intent recognition, question answering and knowledge reasoning.</p>
+
+<p><em>For detailed papers, please refer to <strong><a href="/publications" target="_self">my publications</a></strong></em>.</p>
 
 <blockquote>
   <p><span><strong>I am always open to collaborating with remote students and researchers who are interested in knowledge graphs, LLMs and AI Agent, etc. Please feel free to contact me.</strong></span>
@@ -286,24 +303,30 @@
 </blockquote>
 
 <h1 id="-news">🔥 News</h1>
-<div style="height: 150px; overflow-y: scroll;">
-  <div styple="padding-left: 1em;">
-    <p>• <em>2025.11</em>, 🎉 One paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
+<div class="collapse-list" data-collapse-count="6">
+  <div class="collapse-list__inner">
+    <p>• <em>2026.03</em>, 🎉 1$\times$ paper was accepted to IJCNN'2026, congratulations to Chunyang and Xubo</p>
+    <p>• <em>2026.02</em>, 🎉 I was elected as an external technical expert for the Shandong Science and Technology Project</p>
+    <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to WWW'2026, congratulations to Jinjin</p>
+    <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to ACM TIST, congratulations to Professor Gan</p>
+    <p>• <em>2025.11</em>, 🎉 1$\times$ paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
     <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
-    <p>• <em>2025.04</em>, 🎉 One paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
+    <p>• <em>2025.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
     <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
-    <p>• <em>2024.12</em>, 🎉 One paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
-    <p>• <em>2024.08</em>, 🎉 One paper was acceptd to Applied Intelligence Journal</p>
+    <p>• <em>2024.12</em>, 🎉 1$\times$ paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
+    <p>• <em>2024.08</em>, 🎉 1$\times$ paper was acceptd to Applied Intelligence Journal</p>
     <p>• <em>2024.07</em>, 🎉 I was elected as a technical expert for the Beijing Science and Technology Project</p>
     <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
-    <p>• <em>2023.12</em>, 🎉 I became an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
-    <p>• <em>2023.02</em>, 🎉 Two corresponding author papers were accepted to ICASSP'2023</p>
+    <p>• <em>2023.12</em>, 🎉 I was an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
+    <p>• <em>2023.02</em>, 🎉 2$\times$ corresponding author papers were accepted to ICASSP'2023</p>
   </div>
+  <button type="button" class="collapse-list__toggle" hidden="" aria-expanded="false">More</button>
 </div>
 
 <h1 id="-honors-and-awards">🎖 Honors and Awards</h1>
-<div style="height: 150px; overflow-y: scroll;">
-  <div style="padding-left: 1em;">
+<div class="collapse-list" data-collapse-count="6">
+  <div class="collapse-list__inner">
+    <p>• <em>2026.02</em>, External techinical Expert for the Shandong Science and Technology Project</p>
     <p>• <em>2025.09</em>, CCF Senior Member</p>
     <p>• <em>2024.07</em>, Techinical Expert for the Beijing Science and Technology Project</p>
     <p>• <em>2023.12</em>, Yi Qilin Excellent Talent</p>
@@ -311,42 +334,42 @@
     <p>• <em>2016.07</em>, Outstanding Graduate of Harbin Institute of Technology, Shenzhen</p>
     <p>• <em>2015.07</em>, Merit Student of Harbin Institute of Technology, Shenzhen</p>
   </div>
+  <button type="button" class="collapse-list__toggle" hidden="" aria-expanded="false">More</button>
 </div>
 
-<h1 id="-selected-publications">📝 Selected Publications</h1>
-<ul>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
-  </li>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, Yunming Ye, Baoquan Zhang, Guangning Xu, and Wensheng Gan. Multi-view knowledge graph fusion via knowledge-aware attentional graph neural network. Applied Intelligence, pages 1–20, 2022. <a href="https://link.springer.com/article/10.1007/s10489-022-03667-1"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://code.aliyun.com/hithzc/KAGNN"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
-  </li>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">Zhichao Huang</code>, Xutao Li, Yunming Ye, Feng Li, Feng Liu, and Yuan Yao. Tlvane: a two-level variation model for attributed network embedding. Neural Computing and Applications, 32:4835–4847, 2020. <a href="https://link.springer.com/article/10.1007/s00521-018-3875-5"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
-  </li>
-  <li>
-    <p>Jinjin Guo, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>📧, Guangning Xu, Bowen Zhang, and Chaoqun Duan📧. Knowledge-aware few shot learning for event detection from short texts. In ICASSP, 2023. <a href="https://ieeexplore.ieee.org/document/10095891"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a></p>
-  </li>
-  <li>
-    <p>Guangning Xu, Jinyang Yang, Jinjin Guo, <code class="language-plaintext highlighter-rouge">Zhichao Huang</code>📧, and Bowen Zhang📧. Int-gnn: a user intention aware graph neural network for session-based recommendation. In ICASSP, 2023.  <a href="https://ieeexplore.ieee.org/abstract/document/10097031"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/IntGNN_ICASSP2023"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a></p>
-  </li>
-</ul>
+<!-- 
+# 📝 Selected Publications
+- `Zhichao Huang`, Xutao Li, Yunming Ye, and Michael K Ng. Mr-gcn: Multi-relational graph convolutional networks based on generalized tensor product. In IJCAI, pages 1258–1264, 2020. <a href="https://www.ijcai.org/proceedings/2020/175"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/iceshzc/MR-GCN-DENSE"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
+
+- `Zhichao Huang`, Xutao Li, Yunming Ye, Baoquan Zhang, Guangning Xu, and Wensheng Gan. Multi-view knowledge graph fusion via knowledge-aware attentional graph neural network. Applied Intelligence, pages 1–20, 2022. <a href="https://link.springer.com/article/10.1007/s10489-022-03667-1"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://code.aliyun.com/hithzc/KAGNN"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
+
+- `Zhichao Huang`, Xutao Li, Yunming Ye, Feng Li, Feng Liu, and Yuan Yao. Tlvane: a two-level variation model for attributed network embedding. Neural Computing and Applications, 32:4835–4847, 2020. <a href="https://link.springer.com/article/10.1007/s00521-018-3875-5"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+
+- Jinjin Guo, `Zhichao Huang`📧, Guangning Xu, Bowen Zhang, and Chaoqun Duan📧. Knowledge-aware few shot learning for event detection from short texts. In ICASSP, 2023. <a href="https://ieeexplore.ieee.org/document/10095891"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+
+- Guangning Xu, Jinyang Yang, Jinjin Guo, `Zhichao Huang`📧, and Bowen Zhang📧. Int-gnn: a user intention aware graph neural network for session-based recommendation. In ICASSP, 2023.  <a href="https://ieeexplore.ieee.org/abstract/document/10097031"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a> <a href="https://github.com/xuguangning1218/IntGNN_ICASSP2023"><i style="font-size: 20px;" class="fab fa-fw fa-github"></i></a>
+
+-->
 
 <h1 id="-collaborators">🤝 Collaborators</h1>
 <ul>
   <li><a href="https://xuguangning1218.github.io/">Guangning Xu</a>, Research Assistant Professor at HKBU</li>
   <li><a href="https://scholar.google.com/citations?hl=en&amp;user=2O1BOpEAAAAJ">Bowen Zhang</a>, Associate Professor at SZTU</li>
   <li><a href="https://scholar.google.com/citations?user=NoOK0pIAAAAJ&amp;hl=en">Nan Yin</a>, Research Fellow at CityUHK</li>
+  <li><a href="https://wsgan001.github.io/">Wensheng Gan</a>, Associate Professor at Jinan University</li>
   <li><a href="https://scholar.google.com/citations?user=3GRaz1AAAAAJ&amp;hl=en">Xubo Qin</a>, Researcher at TikTok</li>
   <li><a href="https://openreview.net/profile?id=%7EJINJIN_GUO2">Jinjin Guo</a>, Algorithm Engineer at JD.com</li>
   <li><a href="https://epsilon-lee.github.io/">Guanlin Li</a>, Algorithm Engineer at JD.com</li>
 </ul>
 
-<p><img class="svg" src="/images/hkbu_logo.png" width="105pt" /> 
-<img class="svg" src="/images/sztu_logo.png" width="50pt" /> 
-<img class="svg" src="/images/cityu.png" width="73pt" /> 
-<img class="svg" src="/images/tiktok.png" width="50pt" />
-<img class="svg" src="/images/jd_logo.webp" width="75pt" /></p>
+<div class="logo-row" aria-label="Partner and institution logos">
+  <span class="logo-chip"><img src="/images/partners/hkbu_logo.png" alt="Hong Kong Baptist University" loading="lazy" decoding="async" /></span>
+  <span class="logo-chip"><img src="/images/partners/sztu_logo.png" alt="Shenzhen Technology University" loading="lazy" decoding="async" /></span>
+  <span class="logo-chip"><img src="/images/partners/cityu.png" alt="City University of Hong Kong" loading="lazy" decoding="async" /></span>
+  <span class="logo-chip"><img src="/images/partners/jinan_logo.png" alt="Jinan University" loading="lazy" decoding="async" /></span>
+  <span class="logo-chip"><img src="/images/partners/tiktok.png" alt="TikTok" loading="lazy" decoding="async" /></span>
+  <span class="logo-chip"><img src="/images/partners/jd_logo.png" alt="JD.com" loading="lazy" decoding="async" /></span>
+</div>
 
           </section>
         </div>
@@ -354,6 +377,64 @@
     </div>
 
     <script src="assets/js/main.min.js"></script>
+
+<script>
+(function () {
+  function collapseExpandLabel(n) {
+    return "Show " + n + " more";
+  }
+
+  function collapseCollapseLabel() {
+    return "Show less";
+  }
+
+  function refreshCollapsePanel(panel) {
+    var btn = panel.querySelector(".collapse-list__toggle");
+    if (!btn || btn.hidden) return;
+    var extra = parseInt(panel.getAttribute("data-collapse-extra") || "0", 10);
+    var expanded = panel.classList.contains("is-expanded");
+    btn.textContent = expanded ? collapseCollapseLabel() : collapseExpandLabel(extra);
+  }
+
+  function initCollapseLists() {
+    document.querySelectorAll(".collapse-list").forEach(function (panel) {
+      if (panel.getAttribute("data-collapse-bound") === "1") return;
+      var n = parseInt(panel.getAttribute("data-collapse-count") || "6", 10);
+      var inner = panel.querySelector(".collapse-list__inner");
+      var btn = panel.querySelector(".collapse-list__toggle");
+      if (!inner || !btn) return;
+
+      var items = Array.prototype.filter.call(inner.children, function (el) {
+        return el.tagName === "P";
+      });
+      if (items.length <= n) return;
+
+      panel.setAttribute("data-collapse-bound", "1");
+      var extra = items.length - n;
+      panel.setAttribute("data-collapse-extra", String(extra));
+
+      for (var i = n; i < items.length; i++) {
+        items[i].classList.add("collapse-list__item--collapsed");
+      }
+
+      btn.hidden = false;
+      btn.setAttribute("aria-expanded", "false");
+      refreshCollapsePanel(panel);
+
+      btn.addEventListener("click", function () {
+        var expanded = panel.classList.toggle("is-expanded");
+        for (var j = n; j < items.length; j++) {
+          items[j].classList.toggle("collapse-list__item--collapsed", !expanded);
+        }
+        btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+        refreshCollapsePanel(panel);
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initCollapseLists);
+})();
+</script>
 
 
 
@@ -389,7 +470,7 @@
     
     <br>
     <div class="footer_copyright">
-      <span>&copy; 2025 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Nov. 25th, 2025.</span>
+      <span>&copy; 2026 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Jan. 5th, 2026.</span>
     </div>
     
     <button class="scroll-to-top" id="scrollTopBtn">⬆</button>
@@ -399,15 +480,37 @@
         function scrollFunction() {
             var button = document.getElementById("scrollTopBtn");
             if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                button.style.display = "block";
+                button.classList.add("is-visible");
             } else {
-                button.style.display = "none";
+                button.classList.remove("is-visible");
             }
         }
 
         document.getElementById("scrollTopBtn").addEventListener("click", function() {
             window.scrollTo({top: 0, behavior: 'smooth'});
         });
+
+        (function () {
+            var root = document.documentElement;
+            var btn = document.getElementById("theme-toggle");
+            if (!btn) return;
+            function syncMeta(theme) {
+                var meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute("content", theme === "dark" ? "#0b1220" : "#f8fafc");
+            }
+            function themeAria(theme) {
+                return theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+            }
+            syncMeta(root.getAttribute("data-theme") || "light");
+            btn.setAttribute("aria-label", themeAria(root.getAttribute("data-theme") || "light"));
+            btn.addEventListener("click", function () {
+                var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+                root.setAttribute("data-theme", next);
+                try { localStorage.setItem("site-theme", next); } catch (e) {}
+                syncMeta(next);
+                btn.setAttribute("aria-label", themeAria(next));
+            });
+        })();
     </script>
 
   </body>

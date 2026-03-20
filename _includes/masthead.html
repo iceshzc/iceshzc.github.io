@@ -1,18 +1,40 @@
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+
+  <div class="masthead__inner-wrap masthead__inner-wrap--split">
+
+    <div class="masthead__menu masthead__menu--grow">
+
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+
+        <button type="button" aria-label="Menu"><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/hit_logo.jpeg" width="80pt"></li>
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/name_cn.png" width="108pt"></li>
- 
+
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item masthead-logo" src="/images/partners/hit_logo.png" alt="HIT"></li>
+
           {% for link in site.data.navigation.main %}
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
+
           {% endfor %}
+
         </ul>
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
+
     </div>
+
+    <button type="button" class="theme-toggle theme-toggle--masthead" id="theme-toggle" aria-label="Switch color theme">
+
+      <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+
+      <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+
+    </button>
+
   </div>
+
 </div>
+

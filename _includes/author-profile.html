@@ -1,10 +1,9 @@
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
-{% endif %}
-
-<div itemscope itemtype="http://schema.org/Person" class="profile_box">
-
-  <div class="author__avatar">
+{%- if page.author and site.data.authors[page.author] -%}
+  {%- assign author = site.data.authors[page.author] -%}
+{%- else -%}
+  {%- assign author = site.author -%}
+{%- endif -%}
+<div itemscope itemtype="http://schema.org/Person" class="profile_box"><div class="profile_box-card"><div class="author__avatar">
     <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
@@ -113,9 +112,6 @@
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
 
-      <script type="text/javascript" id="clustrmaps"
-        src="//clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
-
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
@@ -123,6 +119,7 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
@@ -218,5 +215,6 @@
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
     </div>
+  </div>
   </div>
 </div>

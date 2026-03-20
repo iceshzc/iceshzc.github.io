@@ -1,4 +1,62 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+(function () {
+  function collapseExpandLabel(n) {
+    return "Show " + n + " more";
+  }
+
+  function collapseCollapseLabel() {
+    return "Show less";
+  }
+
+  function refreshCollapsePanel(panel) {
+    var btn = panel.querySelector(".collapse-list__toggle");
+    if (!btn || btn.hidden) return;
+    var extra = parseInt(panel.getAttribute("data-collapse-extra") || "0", 10);
+    var expanded = panel.classList.contains("is-expanded");
+    btn.textContent = expanded ? collapseCollapseLabel() : collapseExpandLabel(extra);
+  }
+
+  function initCollapseLists() {
+    document.querySelectorAll(".collapse-list").forEach(function (panel) {
+      if (panel.getAttribute("data-collapse-bound") === "1") return;
+      var n = parseInt(panel.getAttribute("data-collapse-count") || "6", 10);
+      var inner = panel.querySelector(".collapse-list__inner");
+      var btn = panel.querySelector(".collapse-list__toggle");
+      if (!inner || !btn) return;
+
+      var items = Array.prototype.filter.call(inner.children, function (el) {
+        return el.tagName === "P";
+      });
+      if (items.length <= n) return;
+
+      panel.setAttribute("data-collapse-bound", "1");
+      var extra = items.length - n;
+      panel.setAttribute("data-collapse-extra", String(extra));
+
+      for (var i = n; i < items.length; i++) {
+        items[i].classList.add("collapse-list__item--collapsed");
+      }
+
+      btn.hidden = false;
+      btn.setAttribute("aria-expanded", "false");
+      refreshCollapsePanel(panel);
+
+      btn.addEventListener("click", function () {
+        var expanded = panel.classList.toggle("is-expanded");
+        for (var j = n; j < items.length; j++) {
+          items[j].classList.toggle("collapse-list__item--collapsed", !expanded);
+        }
+        btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+        refreshCollapsePanel(panel);
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initCollapseLists);
+})();
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

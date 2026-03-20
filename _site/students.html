@@ -1,34 +1,20 @@
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
+    <script>
+(function () {
+  try {
+    var t = localStorage.getItem('site-theme');
+    if (t !== 'dark' && t !== 'light') {
+      t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+})();
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .scroll-to-top {
-            position: fixed;
-            bottom: 50px;
-            right: 50px;
-            background-color: #5cb85c;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 100%;
-            cursor: pointer;
-            display: none; /* 默认隐藏 */
-        }
-        .scroll-to-top:hover {
-            background-color: #5c89b8;
-        }
-    </style>
 
     <meta charset="utf-8">
 
@@ -86,7 +72,11 @@
 <head>
   <base target="_blank">
 </head>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
@@ -94,7 +84,7 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#0f172a">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
@@ -112,54 +102,82 @@
 
   </head>
 
-  <body>
+  <body class="site-body has-sidebar">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
     <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
+
+  <div class="masthead__inner-wrap masthead__inner-wrap--split">
+
+    <div class="masthead__menu masthead__menu--grow">
+
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+
+        <button type="button" aria-label="Menu"><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/hit_logo.jpeg" width="80pt"></li>
-          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item" src="/images/name_cn.png" width="108pt"></li>
- 
+
+          <li><img class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item masthead-logo" src="/images/partners/hit_logo.png" alt="HIT"></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/" target="_self">Home</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/publications" target="_self">Publications</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/talks" target="_self">Talks</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/students" target="_self">Students</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/services" target="_self">Services</a></li>
+
           
+
             <li class="masthead__menu-item"><a style="font-size: 18px;" href="/cv" target="_self">CV</a></li>
+
           
+
         </ul>
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
+
     </div>
+
+    <button type="button" class="theme-toggle theme-toggle--masthead" id="theme-toggle" aria-label="Switch color theme">
+
+      <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+
+      <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+
+    </button>
+
   </div>
+
 </div>
+
+
     <div id="main" role="main">
 
       
-  <div class="sidebar sticky">
-  
-
-<div itemscope itemtype="http://schema.org/Person" class="profile_box">
-
-  <div class="author__avatar">
+<div class="sidebar"><div class="sidebar__track"><div itemscope itemtype="http://schema.org/Person" class="profile_box"><div class="profile_box-card"><div class="author__avatar">
     <img src="images/photo.png" class="author__avatar" alt="Zhichao Huang">
   </div>
 
   <div class="author__content">
     <h3 class="author__name">Zhichao Huang</h3>
-    <p class="author__bio">Algorithmic Engineer at JD.com, Inc. Foucsing on KGs, LLMs and AI Agent.</p>
+    <p class="author__bio">Algorithm Engineer at JD.com, Inc. Focusing on KGs, LLMs and AI Agent.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -210,12 +228,10 @@
       
       
 
-      <script type="text/javascript" id="clustrmaps"
-        src="//clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
-
       
       
     </ul>
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
       <div class="author__urls_sm">
       
       
@@ -258,15 +274,14 @@
       
     </div>
   </div>
+  </div>
+</div>
+</div>
 </div>
 
-  
-  </div>
 
     
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        <meta itemprop="headline" content="Students">
-        <div class="page__inner-wrap">
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork"><meta itemprop="headline" content="Students"><div class="page__inner-wrap">
           <section class="page__content" style="font-size: 16.2px;" itemprop="text">
             <h1 id="-students">🧑‍🎓 Students</h1>
 
@@ -282,6 +297,64 @@
     </div>
 
     <script src="assets/js/main.min.js"></script>
+
+<script>
+(function () {
+  function collapseExpandLabel(n) {
+    return "Show " + n + " more";
+  }
+
+  function collapseCollapseLabel() {
+    return "Show less";
+  }
+
+  function refreshCollapsePanel(panel) {
+    var btn = panel.querySelector(".collapse-list__toggle");
+    if (!btn || btn.hidden) return;
+    var extra = parseInt(panel.getAttribute("data-collapse-extra") || "0", 10);
+    var expanded = panel.classList.contains("is-expanded");
+    btn.textContent = expanded ? collapseCollapseLabel() : collapseExpandLabel(extra);
+  }
+
+  function initCollapseLists() {
+    document.querySelectorAll(".collapse-list").forEach(function (panel) {
+      if (panel.getAttribute("data-collapse-bound") === "1") return;
+      var n = parseInt(panel.getAttribute("data-collapse-count") || "6", 10);
+      var inner = panel.querySelector(".collapse-list__inner");
+      var btn = panel.querySelector(".collapse-list__toggle");
+      if (!inner || !btn) return;
+
+      var items = Array.prototype.filter.call(inner.children, function (el) {
+        return el.tagName === "P";
+      });
+      if (items.length <= n) return;
+
+      panel.setAttribute("data-collapse-bound", "1");
+      var extra = items.length - n;
+      panel.setAttribute("data-collapse-extra", String(extra));
+
+      for (var i = n; i < items.length; i++) {
+        items[i].classList.add("collapse-list__item--collapsed");
+      }
+
+      btn.hidden = false;
+      btn.setAttribute("aria-expanded", "false");
+      refreshCollapsePanel(panel);
+
+      btn.addEventListener("click", function () {
+        var expanded = panel.classList.toggle("is-expanded");
+        for (var j = n; j < items.length; j++) {
+          items[j].classList.toggle("collapse-list__item--collapsed", !expanded);
+        }
+        btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+        refreshCollapsePanel(panel);
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initCollapseLists);
+})();
+</script>
 
 
 
@@ -317,7 +390,7 @@
     
     <br>
     <div class="footer_copyright">
-      <span>&copy; 2025 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Nov. 25th, 2025.</span>
+      <span>&copy; 2026 <a href="iceshzc.github.io">Zhichao Huang</a>, Last Modified Time Jan. 5th, 2026.</span>
     </div>
     
     <button class="scroll-to-top" id="scrollTopBtn">⬆</button>
@@ -327,15 +400,37 @@
         function scrollFunction() {
             var button = document.getElementById("scrollTopBtn");
             if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                button.style.display = "block";
+                button.classList.add("is-visible");
             } else {
-                button.style.display = "none";
+                button.classList.remove("is-visible");
             }
         }
 
         document.getElementById("scrollTopBtn").addEventListener("click", function() {
             window.scrollTo({top: 0, behavior: 'smooth'});
         });
+
+        (function () {
+            var root = document.documentElement;
+            var btn = document.getElementById("theme-toggle");
+            if (!btn) return;
+            function syncMeta(theme) {
+                var meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute("content", theme === "dark" ? "#0b1220" : "#f8fafc");
+            }
+            function themeAria(theme) {
+                return theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+            }
+            syncMeta(root.getAttribute("data-theme") || "light");
+            btn.setAttribute("aria-label", themeAria(root.getAttribute("data-theme") || "light"));
+            btn.addEventListener("click", function () {
+                var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+                root.setAttribute("data-theme", next);
+                try { localStorage.setItem("site-theme", next); } catch (e) {}
+                syncMeta(next);
+                btn.setAttribute("aria-label", themeAria(next));
+            });
+        })();
     </script>
 
   </body>
