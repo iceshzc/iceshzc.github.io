@@ -9,7 +9,9 @@ permalink: /publications
 
 # 📝 Publications 
 ## 2026
-- Jinjin Guo, Yexin Li, **Zhichao Huang**, etc. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+- Chunyang Li, Xubo Qin📧, **Zhichao Huang**📧. A Pointwise Method for Search Result Diversification via Intent Matching. In IJCNN, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+
+- Jinjin Guo, Yexin Li, **Zhichao Huang**, etc. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href="https://arxiv.org/pdf/2602.09066"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
 
 - Huashen Lu, Wensheng Gan, Guoting Chen, **Zhichao Huang**, Philip S. Yu. Graph Attention-based Adaptive Transfer Learning for Link Prediction. ACM Transactions on Intelligent Systems and Technology, 2026. <a href="https://arxiv.org/abs/2512.22252"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
   
