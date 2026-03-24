@@ -9,7 +9,7 @@ permalink: /publications
 
 # 📝 Publications 
 ## 2026
-- Chunyang Li, Xubo Qin📧, **Zhichao Huang**📧. A Pointwise Method for Search Result Diversification via Intent Matching. In IJCNN, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+- Chunyang Li, **Zhichao Huang**📧, Xubo Qin📧. A Pointwise Method for Search Result Diversification via Intent Matching. In IJCNN, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
 
 - Jinjin Guo, Yexin Li, **Zhichao Huang**, etc. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href="https://arxiv.org/pdf/2602.09066"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
 
