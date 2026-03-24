@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhichao Huang"
-  avatar           : "images/photo.png"
+  avatar           : "images/photo.jpg"
   bio              : "Algorithm Engineer at JD.com, Inc. Focusing on KGs, LLMs and AI Agent."
   location         : "Beijing, China"
   employer         : 
