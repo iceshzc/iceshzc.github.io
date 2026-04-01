@@ -77,6 +77,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 - [Wensheng Gan](https://wsgan001.github.io/), Associate Professor at Jinan University
 - [Xubo Qin](https://scholar.google.com/citations?user=3GRaz1AAAAAJ&hl=en), Researcher at TikTok
 - [Jinjin Guo](https://openreview.net/profile?id=%7EJINJIN_GUO2), Algorithm Engineer at JD.com
+- [Yexin Li](https://liyexn.github.io/), Researcher at BIGAI
 - [Guanlin Li](https://epsilon-lee.github.io/), Algorithm Engineer at JD.com
 
 <div class="logo-row" aria-label="Partner and institution logos">
