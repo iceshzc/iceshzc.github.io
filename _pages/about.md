@@ -19,7 +19,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 ```zhichao [at] cshzc [dot] top
 ```
 
-> <span style="color:red">New!!</span> We're looking for talented full-time employees and interns to join our team working on ```training Vision-Language Models``` and applying it to AI Agent. If you are interested, please feel free to contact me.
+> <span style="color:red">New!!</span> We're looking for talented full-time employees and interns to join our team working on ```AI4CAD``` and applying it to AI Agent. If you are interested, please feel free to contact me.
 
 # 🔥 News
 <div class="collapse-list" data-collapse-count="6">
