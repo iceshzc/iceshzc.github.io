@@ -24,6 +24,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div class="collapse-list" data-collapse-count="6">
   <div class="collapse-list__inner">
+    <p>• <em>2026.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2026, congratulations to Chunyang</p>
     <p>• <em>2026.03</em>, 🎉 1$\times$ paper was accepted to IJCNN'2026, congratulations to Chunyang and Xubo</p>
     <p>• <em>2026.02</em>, 🎉 I was elected as an external technical expert for the Shandong Science and Technology Project</p>
     <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to WWW'2026, congratulations to Jinjin</p>
