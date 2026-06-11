@@ -9,11 +9,15 @@ permalink: /publications
 
 # 📝 Publications 
 ## 2026
-- Chunyang Li, Zheyi Pan, **Zhichao Huang**📧, etc. MetaFS: A Meta-Learning Framework for Efficient Wrapper Feature Selection. In ICIC, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+- Chunyang Li, Xiuwen Yi, Shumeng Bai, Chengjie Guo, Zheyi Pan, **Zhichao Huang**, et al. Towards Semantic Alignment: Intent-aware Meta Learning for Urban Fields Recommendation. In ECML-PKDD, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+
+- Yunlong Xing, Shengbin Huang, **Zhichao Huang**, Jinzhou Cao, Xiuqiang He, Bowen Zhang, Genan Dai. DASH: Disaster-Aware Social-Semantic Enhanced Hypergraph Convolution Network for Human Mobility Forecasting. ACM Transactions on Intelligent Systems and Technology, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+
+- Chunyang Li, Zheyi Pan, **Zhichao Huang**📧, et al. MetaFS: A Meta-Learning Framework for Efficient Wrapper Feature Selection. In ICIC, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
 
 - Chunyang Li, **Zhichao Huang**📧, Xubo Qin📧. A Pointwise Method for Search Result Diversification via Intent Matching. In IJCNN, 2026. <a href=""><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
 
-- Jinjin Guo, Yexin Li, **Zhichao Huang**, etc. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href="https://dl.acm.org/doi/abs/10.1145/3774904.3792528"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
+- Jinjin Guo, Yexin Li, **Zhichao Huang**, et al. Spectral Disentanglement and Enhancement: A Dual-domain Contrastive Framework for Representation Learning. In WWW, 2026. <a href="https://dl.acm.org/doi/abs/10.1145/3774904.3792528"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
 
 - Huashen Lu, Wensheng Gan, Guoting Chen, **Zhichao Huang**, Philip S. Yu. Graph Attention-based Adaptive Transfer Learning for Link Prediction. ACM Transactions on Intelligent Systems and Technology, 2026. <a href="https://arxiv.org/abs/2512.22252"><i style="font-size: 20px;" class="fa fa-file-pdf"></i></a>
   
