@@ -24,6 +24,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🔥 News
 <div class="collapse-list" data-collapse-count="6">
   <div class="collapse-list__inner">
+    <p>• <em>2026.05</em>, 🎉 1$\times$ paper was accepted to ECML-PKDD'2026, congratulations to Chunyang</p>
     <p>• <em>2026.05</em>, 🎉 1$\times$ paper was accepted to ACM TIST, congratulations to Bowen</p>
     <p>• <em>2026.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2026, congratulations to Chunyang</p>
     <p>• <em>2026.03</em>, 🎉 1$\times$ paper was accepted to IJCNN'2026, congratulations to Chunyang and Xubo</p>
