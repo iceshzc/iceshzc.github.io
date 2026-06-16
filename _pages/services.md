@@ -22,11 +22,12 @@ permalink: /services
 
 ## Conference PC/Reviewer
 - WWW, 2026
-- KDD, <a href="https://kdd2025.kdd.org/research-track-program-committee/">2025</a>, 2026
+- KDD, <a href="https://kdd2025.kdd.org/research-track-program-committee/">2025</a>, 2026, 2027
 - ICML, 2025
 - ICLR, 2025
 - AAAI, 2021, 2022, 2026
 - IJCAI, 2021, 2022, 2023, 2024, 2025, 2026
+- ACL ARR, 2026
 - ACM MM, 2024
 - ECAI, 2025
 - ICASSP, 2023, 2024, 2025
