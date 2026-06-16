@@ -1,0 +1,16 @@
+{% if site.mapmyvisitors.enabled and site.mapmyvisitors.token != "" %}
+<div class="mapmyvisitors-widget">
+  {% if site.mapmyvisitors.stats_url %}
+  <a href="{{ site.mapmyvisitors.stats_url }}" title="Visitor map" target="_blank" rel="noopener">
+  {% endif %}
+    <img
+      src="https://mapmyvisitors.com/map.png?d={{ site.mapmyvisitors.token }}&cl={{ site.mapmyvisitors.bg_color | default: 'aad3df' }}&w={{ site.mapmyvisitors.width | default: 'a' }}&co={{ site.mapmyvisitors.accent_color | default: '2d78ad' }}&ct={{ site.mapmyvisitors.text_color | default: '334155' }}&t=n"
+      alt="Visitor map"
+      loading="lazy"
+      decoding="async"
+    />
+  {% if site.mapmyvisitors.stats_url %}
+  </a>
+  {% endif %}
+</div>
+{% endif %}

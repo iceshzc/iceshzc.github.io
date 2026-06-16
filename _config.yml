@@ -14,6 +14,17 @@ google_scholar_stats_use_cdn : false
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
+# MapMyVisitors (ClustrMaps replacement)
+# Register at https://mapmyvisitors.com/add/ and copy the `d=` token from embed code.
+mapmyvisitors:
+  enabled: true
+  token: "e8T570tWf-LGRzQlwKK_5brmsA8AWEsD8tLvWLuWJ2U"
+  stats_url: "https://mapmyvisitors.com/web/1c5in"
+  bg_color: "aad3df"       # ocean blue (typical map water color)
+  width: "a"
+  accent_color: "2d78ad"   # land / visitor marker (blue-green, not red)
+  text_color: "334155"     # counter text
+
 # SEO Related
 google_site_verification : e4MxJVPBJYML2N84ftJ1X8jh_Yb2IyttAtp9-6pgJAw # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   : 963E12A74A7FE24A36DE11F1ECFDA4A7 # get bing_site_verification from https://www.bing.com/webmasters/about

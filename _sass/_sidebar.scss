@@ -259,6 +259,52 @@
   }
 }
 
+.mapmyvisitors-widget {
+  margin-top: 1rem;
+  max-width: 220px;
+  overflow: hidden;
+  border-radius: $border-radius;
+  color: #333333;
+  color-scheme: only light;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    background: #aad3df;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+  }
+
+  &__fallback {
+    font-size: $type-size-6;
+    padding: 0.35rem 0;
+    color: $link-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+[data-theme="dark"] .mapmyvisitors-widget {
+  color: #333333;
+
+  img {
+    border-color: rgba(148, 163, 184, 0.25);
+  }
+
+  a {
+    color: #333333;
+  }
+}
+
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;

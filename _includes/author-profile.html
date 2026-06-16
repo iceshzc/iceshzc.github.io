@@ -119,7 +119,7 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
-    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=Khz3LVFqYDz0PXrWq7otOZnapDqXUrDi-G3WD5QVPIc&cl=ffffff&w=a&t=tt"></script>
+    {% include mapmyvisitors.html %}
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
