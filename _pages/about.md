@@ -4,8 +4,8 @@ title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+ - /about/
+ - /about.html
 ---
 
 # 😀 About Me
@@ -15,7 +15,7 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 
 *For detailed papers, please refer to **<a href="/publications" target="_self">my publications</a>***.
 
->  <span>**I am always open to collaborating with remote students and researchers who are interested in knowledge graphs, LLMs and AI Agent, etc. Please feel free to contact me.**</span> 
+> <span>**I am always open to collaborating with remote students and researchers who are interested in knowledge graphs, LLMs and AI Agent, etc. Please feel free to contact me.**</span> 
 ```zhichao [at] cshzc [dot] top
 ```
 
@@ -23,37 +23,38 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 
 # 🔥 News
 <div class="collapse-list" data-collapse-count="6">
-  <div class="collapse-list__inner">
-    <p>• <em>2026.05</em>, 🎉 1$\times$ paper was accepted to ECML-PKDD'2026, congratulations to Chunyang</p>
-    <p>• <em>2026.05</em>, 🎉 1$\times$ paper was accepted to ACM TIST, congratulations to Bowen</p>
-    <p>• <em>2026.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2026, congratulations to Chunyang</p>
-    <p>• <em>2026.03</em>, 🎉 1$\times$ paper was accepted to IJCNN'2026, congratulations to Chunyang and Xubo</p>
-    <p>• <em>2026.02</em>, 🎉 I was elected as an external technical expert for the Shandong Science and Technology Project</p>
-    <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to WWW'2026, congratulations to Jinjin</p>
-    <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to ACM TIST, congratulations to Professor Gan</p>
-    <p>• <em>2025.11</em>, 🎉 1$\times$ paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
-    <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
-    <p>• <em>2025.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
-    <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
-    <p>• <em>2024.12</em>, 🎉 1$\times$ paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
-    <p>• <em>2024.08</em>, 🎉 1$\times$ paper was acceptd to Applied Intelligence Journal</p>
-    <p>• <em>2024.07</em>, 🎉 I was elected as a technical expert for the Beijing Science and Technology Project</p>
-    <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
-    <p>• <em>2023.12</em>, 🎉 I was an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
-    <p>• <em>2023.02</em>, 🎉 2$\times$ corresponding author papers were accepted to ICASSP'2023</p>
-  </div>
-  <button type="button" class="collapse-list__toggle" hidden aria-expanded="false">More</button>
+ <div class="collapse-list__inner">
+ <p>• <em>2026.07</em>, 🎉 I was elected to the Young Elite Scientists Sponsorship Program by BAST</p>
+ <p>• <em>2026.05</em>, 🎉 1$\times$ paper was accepted to ECML-PKDD'2026, congratulations to Chunyang</p>
+ <p>• <em>2026.05</em>, 🎉 1$\times$ paper was accepted to ACM TIST, congratulations to Bowen</p>
+ <p>• <em>2026.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2026, congratulations to Chunyang</p>
+ <p>• <em>2026.03</em>, 🎉 1$\times$ paper was accepted to IJCNN'2026, congratulations to Chunyang and Xubo</p>
+ <p>• <em>2026.02</em>, 🎉 I was elected as an external technical expert for the Shandong Science and Technology Project</p>
+ <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to WWW'2026, congratulations to Jinjin</p>
+ <p>• <em>2026.01</em>, 🎉 1$\times$ paper was accepted to ACM TIST, congratulations to Professor Gan</p>
+ <p>• <em>2025.11</em>, 🎉 1$\times$ paper was accepted to AAAI'2026 and selected as an oral presentation paper</p>
+ <p>• <em>2025.09</em>, 🎉 <a href="https://www.ccf.org.cn/Membership/Individual_member/Only/2025-09-22/848927.shtml">I was elected as a CCF Senior Member</a> </p>
+ <p>• <em>2025.04</em>, 🎉 1$\times$ paper was accepted to ICIC'2025, congratulations to Chunyang and Yanping</p>
+ <p>• <em>2025.02</em>, 🎉 I was supported by Beijing Natural Science Foundation</p>
+ <p>• <em>2024.12</em>, 🎉 1$\times$ paper was accepted to AAAI'2025 and selected as an oral presentation paper, congratulations to Bowen and Guangning</p>
+ <p>• <em>2024.08</em>, 🎉 1$\times$ paper was acceptd to Applied Intelligence Journal</p>
+ <p>• <em>2024.07</em>, 🎉 I was elected as a technical expert for the Beijing Science and Technology Project</p>
+ <p>• <em>2023.12</em>, 🎉 Awarded the "Yi Qilin" Excellent Talent designation by the Beijing Economic-Technological Development Area</p>
+ <p>• <em>2023.12</em>, 🎉 I was an associate senior researcher at the Beijing Natural Science Research Series Committee</p>
+ <p>• <em>2023.02</em>, 🎉 2$\times$ corresponding author papers were accepted to ICASSP'2023</p>
+ </div>
+ <button type="button" class="collapse-list__toggle" hidden aria-expanded="false">More</button>
 </div>
 
 # 🎖 Honors and Awards
 <div class="collapse-list" data-collapse-count="6">
-  <div class="collapse-list__inner">
-    <p>• <em>2026.02</em>, External Techinical Expert for the Shandong Science and Technology Project</p>
-    <p>• <em>2025.09</em>, CCF Senior Member</p>
-    <p>• <em>2024.07</em>, Techinical Expert for the Beijing Science and Technology Project</p>
-    <p>• <em>2023.12</em>, Yi Qilin Excellent Talent</p>
-    <p>• <em>2016-2020</em>, First-Class Scholarship of Harbin Institute of Technology, Shenzhen</p>
-    <p>• <em>2016.07</em>, Outstanding Graduate of Harbin Institute of Technology, Shenzhen</p>
+ <div class="collapse-list__inner">
+ <p>• <em>2026.02</em>, External Techinical Expert for the Shandong Science and Technology Project</p>
+ <p>• <em>2025.09</em>, CCF Senior Member</p>
+ <p>• <em>2024.07</em>, Techinical Expert for the Beijing Science and Technology Project</p>
+ <p>• <em>2023.12</em>, Yi Qilin Excellent Talent</p>
+ <p>• <em>2016-2020</em>, First-Class Scholarship of Harbin Institute of Technology, Shenzhen</p>
+ <p>• <em>2016.07</em>, Outstanding Graduate of Harbin Institute of Technology, Shenzhen</p>
     <p>• <em>2015.07</em>, Merit Student of Harbin Institute of Technology, Shenzhen</p>
   </div>
   <button type="button" class="collapse-list__toggle" hidden aria-expanded="false">More</button>
