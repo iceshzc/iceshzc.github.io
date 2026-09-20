@@ -24,7 +24,7 @@ permalink: /services
 - WWW, 2026
 - KDD, <a href="https://kdd2025.kdd.org/research-track-program-committee/">2025</a>, 2026, 2027
 - ICML, 2025
-- ICLR, 2025
+- ICLR, 2025, 2027
 - WSDM, 2027
 - AAAI, 2021, 2022, 2026, 2027
 - IJCAI, 2021, 2022, 2023, 2024, 2025, 2026
