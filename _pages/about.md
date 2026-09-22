@@ -77,18 +77,15 @@ I received my Ph.D. from <a href="http://en.hitsz.edu.cn/">Harbin Institute of T
 # 🤝 Collaborators
 - [Guangning Xu](https://xuguangning1218.github.io/), Research Assistant Professor at HKBU
 - [Bowen Zhang](https://scholar.google.com/citations?hl=en&user=2O1BOpEAAAAJ), Associate Professor at SZTU
-- [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Research Fellow at CityUHK
-- [Wensheng Gan](https://wsgan001.github.io/), Associate Professor at Jinan University
+- [Nan Yin](https://scholar.google.com/citations?user=NoOK0pIAAAAJ&hl=en), Assistant Professor at EdUHK
 - [Xubo Qin](https://scholar.google.com/citations?user=3GRaz1AAAAAJ&hl=en), Researcher at TikTok
 - [Jinjin Guo](https://openreview.net/profile?id=%7EJINJIN_GUO2), Algorithm Engineer at JD.com
-- [Yexin Li](https://liyexn.github.io/), Researcher at BIGAI
-- [Guanlin Li](https://epsilon-lee.github.io/), Algorithm Engineer at JD.com
+
 
 <div class="logo-row" aria-label="Partner and institution logos">
   <span class="logo-chip"><img src="/images/partners/hkbu_logo.png" alt="Hong Kong Baptist University" loading="lazy" decoding="async"></span>
   <span class="logo-chip"><img src="/images/partners/sztu_logo.png" alt="Shenzhen Technology University" loading="lazy" decoding="async"></span>
-  <span class="logo-chip"><img src="/images/partners/cityu.png" alt="City University of Hong Kong" loading="lazy" decoding="async"></span>
-  <span class="logo-chip"><img src="/images/partners/jinan_logo.png" alt="Jinan University" loading="lazy" decoding="async"></span>
+  <span class="logo-chip"><img src="/images/partners/eduhk.png" alt="City University of Hong Kong" loading="lazy" decoding="async"></span>
   <span class="logo-chip"><img src="/images/partners/tiktok.png" alt="TikTok" loading="lazy" decoding="async"></span>
   <span class="logo-chip"><img src="/images/partners/jd_logo.png" alt="JD.com" loading="lazy" decoding="async"></span>
 </div>
